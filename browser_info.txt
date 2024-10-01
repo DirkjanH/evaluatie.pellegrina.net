@@ -1,0 +1,454 @@
+13-9-2007   22:38   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+13-9-2007   22:38   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+13-9-2007   22:38   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+13-9-2007   22:38   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+13-9-2007   22:38   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+13-9-2007   22:38   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+13-9-2007   22:38   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+13-9-2007   22:38   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+13-9-2007   22:38   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+13-9-2007   22:38   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+13-9-2007   22:38   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+13-9-2007   22:38   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+13-9-2007   22:38   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+13-9-2007   22:38   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+13-9-2007   22:38   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+13-9-2007   22:38   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+13-9-2007   22:40   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+13-9-2007   22:43   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+13-9-2007   22:44   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+13-9-2007   22:44   89.220.231.30   mijnabel.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 1.1.4322; .NET CLR 3.0.04506.30)
+13-9-2007   22:46   83.82.221.150   casema.nl   Mozilla/5.0 (Macintosh; U; PPC Mac OS X; nl-nl) AppleWebKit/419 (KHTML, like Gecko) Safari/419.3
+13-9-2007   22:47   87.212.19.234   versatel.nl   Mozilla/5.0 (Macintosh; U; PPC Mac OS X; nl-nl) AppleWebKit/522.11.1 (KHTML, like Gecko) Version/3.0.3 Safari/522.12.1
+13-9-2007   22:48   83.82.221.150   casema.nl   Mozilla/5.0 (Macintosh; U; PPC Mac OS X; nl-nl) AppleWebKit/419 (KHTML, like Gecko) Safari/419.3
+13-9-2007   23:12   83.84.40.204   casema.nl   Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+13-9-2007   23:16   82.168.254.88   tiscali.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Media Center PC 3.0; .NET CLR 1.0.3705; .NET CLR 1.1.4322)
+13-9-2007   23:18   84.81.84.254   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+13-9-2007   23:44   84.83.146.187   planet.nl   Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; nl-NL; rv:1.8.1.6) Gecko/20070802 SeaMonkey/1.1.4 Mnenhy/0.7.5.0
+13-9-2007   23:45   84.83.146.187   planet.nl   Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; nl-NL; rv:1.8.1.6) Gecko/20070802 SeaMonkey/1.1.4 Mnenhy/0.7.5.0
+13-9-2007   23:45   84.83.146.187   planet.nl   Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; nl-NL; rv:1.8.1.6) Gecko/20070802 SeaMonkey/1.1.4 Mnenhy/0.7.5.0
+13-9-2007   23:45   84.83.146.187   planet.nl   Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; nl-NL; rv:1.8.1.6) Gecko/20070802 SeaMonkey/1.1.4 Mnenhy/0.7.5.0
+13-9-2007   23:45   84.83.146.187   planet.nl   Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; nl-NL; rv:1.8.1.6) Gecko/20070802 SeaMonkey/1.1.4 Mnenhy/0.7.5.0
+13-9-2007   23:45   84.83.146.187   planet.nl   Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; nl-NL; rv:1.8.1.6) Gecko/20070802 SeaMonkey/1.1.4 Mnenhy/0.7.5.0
+13-9-2007   23:45   84.83.146.187   planet.nl   Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; nl-NL; rv:1.8.1.6) Gecko/20070802 SeaMonkey/1.1.4 Mnenhy/0.7.5.0
+13-9-2007   23:45   84.83.146.187   planet.nl   Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; nl-NL; rv:1.8.1.6) Gecko/20070802 SeaMonkey/1.1.4 Mnenhy/0.7.5.0
+13-9-2007   23:45   84.83.146.187   planet.nl   Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; nl-NL; rv:1.8.1.6) Gecko/20070802 SeaMonkey/1.1.4 Mnenhy/0.7.5.0
+14-9-2007   00:14   80.100.89.15   xs4all.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727; Media Center PC 4.0; .NET CLR 3.0.04506.30)
+14-9-2007   01:34   87.212.23.143   versatel.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; InfoPath.2; Creative ZENcast v1.02.10)
+14-9-2007   01:51   69.202.86.53   rr.com   Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en) AppleWebKit/419.2 (KHTML, like Gecko) Safari/419.3
+14-9-2007   07:34   84.42.185.237   upc.cz   Mozilla/5.0 (Windows; U; Windows NT 5.0; cs-CZ; rv:1.7.5) Gecko/20041108 Firefox/1.0
+14-9-2007   09:16   82.168.254.88   tiscali.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Media Center PC 3.0; .NET CLR 1.0.3705; .NET CLR 1.1.4322)
+14-9-2007   09:48   193.172.171.126   171.126   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 2.0.50727)
+14-9-2007   11:31   85.191.52.240   scarlet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+14-9-2007   12:53   15.203.137.74   hp.net   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+14-9-2007   12:54   141.64.76.148   tfh-berlin.de   Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+14-9-2007   14:16   62.146.141.28   141.28   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+14-9-2007   15:52   213.10.103.247   planet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727)
+14-9-2007   15:56   194.81.230.11   ac.uk   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)
+14-9-2007   16:00   81.207.249.203   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; InfoPath.1)
+14-9-2007   16:34   87.212.15.155   versatel.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+14-9-2007   16:41   69.202.86.53   rr.com   Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en) AppleWebKit/419.2 (KHTML, like Gecko) Safari/419.3
+14-9-2007   16:44   69.202.86.53   rr.com   Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en) AppleWebKit/419.2 (KHTML, like Gecko) Safari/419.3
+14-9-2007   19:01   62.166.19.135   versatel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+14-9-2007   21:04   82.168.254.88   tiscali.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Media Center PC 3.0; .NET CLR 1.0.3705; .NET CLR 1.1.4322)
+14-9-2007   22:02   89.24.5.18   4ginternet.cz   Mozilla/5.0 (Windows; U; Windows NT 5.1; cs; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+15-9-2007   01:33   210.169.95.253   ne.jp   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+15-9-2007   15:30   83.85.193.147   casema.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+15-9-2007   17:21   84.85.213.124   hetnet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+16-9-2007   12:14   130.89.1.19   utwente.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 1.1.4322)
+16-9-2007   17:20   84.81.84.254   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+16-9-2007   22:13   213.84.223.181   xs4all.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+16-9-2007   22:19   82.157.163.136   wanadoo.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+17-9-2007   09:14   81.240.202.30   belgacom.be   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+17-9-2007   09:14   81.240.202.30   belgacom.be   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+17-9-2007   09:21   145.53.211.85   planet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+17-9-2007   09:25   82.157.163.136   wanadoo.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+17-9-2007   10:57   145.18.64.25   uva.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; T312461; .NET CLR 2.0.50727)
+17-9-2007   19:14   84.24.118.229   home.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)
+17-9-2007   22:09   82.72.94.11   home.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322)
+18-9-2007   00:23   83.69.32.186   owebu.net   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Badongo 2.0.0)
+18-9-2007   16:55   71.163.131.53   verizon.net   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+18-9-2007   16:55   71.163.131.53   verizon.net   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+18-9-2007   20:53   86.90.231.132   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+18-9-2007   21:19   213.84.162.104   xs4all.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506)
+19-9-2007   15:08   217.169.227.61   dnet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+19-9-2007   19:34   82.136.235.118   tiscali.nl   Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+20-9-2007   12:10   83.82.221.150   casema.nl   Mozilla/5.0 (Macintosh; U; PPC Mac OS X; nl-nl) AppleWebKit/419 (KHTML, like Gecko) Safari/419.3
+20-9-2007   13:48   145.18.64.25   uva.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; T312461; .NET CLR 2.0.50727)
+20-9-2007   22:34   62.59.77.24   versatel.nl   Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)
+20-9-2007   22:34   62.59.77.24   versatel.nl   Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)
+20-9-2007   22:34   62.59.77.24   versatel.nl   Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)
+20-9-2007   22:35   62.59.77.24   versatel.nl   Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)
+21-9-2007   15:06   82.171.56.90   tiscali.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+23-9-2007   18:25   87.210.54.23   versatel.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; FreeSurf myweb.nl v1.0.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+24-9-2007   00:03   77.160.191.44   direct-adsl.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.0.12) Gecko/20070508 Firefox/1.5.0.12
+24-9-2007   11:15   77.160.191.44   direct-adsl.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.0.12) Gecko/20070508 Firefox/1.5.0.12
+24-9-2007   22:20   62.234.206.28   wanadoo.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+26-9-2007   09:46   89.220.231.30   mijnabel.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+26-9-2007   20:19   80.56.145.51   chello.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+26-9-2007   22:16   86.94.191.159   direct-adsl.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; ja; rv:1.8.1.7) Gecko/20070914 Firefox/2.0.0.7
+26-9-2007   23:22   80.60.234.177   planet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)
+27-9-2007   20:53   80.61.93.88   planet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+27-9-2007   21:43   145.53.7.165   planet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+29-9-2007   17:55   80.60.234.177   planet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)
+30-9-2007   09:48   87.212.19.234   versatel.nl   Mozilla/5.0 (Macintosh; U; PPC Mac OS X; nl-nl) AppleWebKit/522.11.1 (KHTML, like Gecko) Version/3.0.3 Safari/522.12.1
+30-9-2007   23:24   213.46.120.213   chello.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)
+1-10-2007   23:08   82.171.31.132   tiscali.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727)
+3-10-2007   10:16   84.81.79.246   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.0.3705; .NET CLR 1.1.4322; Media Center PC 4.0; .NET CLR 2.0.50727)
+3-10-2007   19:13   213.10.53.96   planet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)
+7-10-2007   16:03   82.72.120.100   home.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; AtHome033; .NET CLR 1.1.4322)
+7-10-2007   16:53   146.50.193.246   uva.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506; InfoPath.2)
+9-10-2007   13:58   77.162.124.3   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+13-10-2007   00:50   86.94.191.159   direct-adsl.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; ja; rv:1.8.1.7) Gecko/20070914 Firefox/2.0.0.7
+16-10-2007   15:03   84.86.224.93   planet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+28-10-2007   13:38   84.86.108.127   planet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)
+29-10-2007   18:53   193.171.131.245   eduhi.at   Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.8.1.8) Gecko/20071008 Firefox/2.0.0.8
+29-10-2007   19:11   193.171.131.245   eduhi.at   Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.8.1.8) Gecko/20071008 Firefox/2.0.0.8
+30-10-2007   14:07   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.8) Gecko/20071008 Firefox/2.0.0.8
+30-10-2007   14:44   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.8) Gecko/20071008 Firefox/2.0.0.8
+30-10-2007   14:47   89.220.231.30   mijnabel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.8) Gecko/20071008 Firefox/2.0.0.8
+30-10-2007   16:06   89.220.231.30   mijnabel.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+30-10-2007   16:22   82.215.9.132   internl.net   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+30-10-2007   16:22   82.215.9.132   internl.net   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+30-10-2007   16:23   86.89.64.191   planet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+30-10-2007   16:24   80.112.207.98   thenetworkfactory.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+30-10-2007   16:33   82.171.158.159   tiscali.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30)
+30-10-2007   16:54   213.10.156.85   planet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+30-10-2007   17:52   81.204.232.167   hetnet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)
+30-10-2007   17:55   81.204.232.167   hetnet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)
+30-10-2007   19:33   213.84.223.181   xs4all.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+30-10-2007   19:47   77.161.255.198   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)
+30-10-2007   19:56   77.162.164.82   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+30-10-2007   20:00   77.161.255.198   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)
+30-10-2007   20:43   83.160.33.93   demon.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30)
+30-10-2007   22:26   205.188.117.11   aol.com   Mozilla/4.0 (compatible; MSIE 6.0; CS 2000; Windows NT 5.1; SV1)
+31-10-2007   00:05   86.80.39.55   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 5.5; Windows 98; Win 9x 4.90)
+31-10-2007   09:16   83.85.193.147   casema.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+31-10-2007   09:17   83.85.193.147   casema.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+31-10-2007   10:36   82.215.9.132   internl.net   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+31-10-2007   17:01   193.194.132.39   renault.fr   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+31-10-2007   17:06   193.194.132.39   renault.fr   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+1-11-2007   00:42   80.100.89.15   xs4all.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727; Media Center PC 4.0; .NET CLR 3.0.04506.30)
+1-11-2007   19:36   62.45.180.191   caiway.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1)
+1-11-2007   22:03   80.126.10.236   10.236   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.8) Gecko/20071008 Firefox/2.0.0.8
+1-11-2007   22:26   86.85.119.170   hetnet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; Seekmo 10.0.345.0)
+3-11-2007   13:32   192.87.6.149   6.149   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 1.1.4322)
+4-11-2007   02:26   213.93.208.171   chello.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)
+4-11-2007   13:06   83.83.191.134   casema.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+4-11-2007   17:53   213.93.208.171   chello.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+10-11-2007   23:14   84.81.84.254   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+25-11-2007   14:17   213.10.156.85   planet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+25-1-2008   19:30   86.94.191.159   direct-adsl.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; ja; rv:1.8.1.11) Gecko/20071127 Firefox/2.0.0.11
+25-1-2008   22:15   86.94.191.159   direct-adsl.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; ja; rv:1.8.1.11) Gecko/20071127 Firefox/2.0.0.11
+25-2-2008   16:22   86.94.191.159   direct-adsl.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; ja; rv:1.8.1.12) Gecko/20080201 Firefox/2.0.0.12
+25-2-2008   16:22   86.94.191.159   direct-adsl.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; ja; rv:1.8.1.12) Gecko/20080201 Firefox/2.0.0.12
+9-10-2008   16:54   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+9-10-2008   17:00   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+9-10-2008   17:01   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+10-10-2008   17:29   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+10-10-2008   17:44   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+10-10-2008   17:49   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+10-10-2008   23:05   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+10-10-2008   23:12   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+10-10-2008   23:13   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+10-10-2008   23:14   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+10-10-2008   23:15   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+10-10-2008   23:15   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+10-10-2008   23:16   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+10-10-2008   23:48   212.182.189.74   telfort.nl   Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; nl; rv:1.9.0.3) Gecko/2008092414 Firefox/3.0.3
+11-10-2008   00:07   84.83.129.233   planet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+11-10-2008   00:32   82.173.18.55   versatel.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648)
+11-10-2008   00:33   82.171.91.52   telfort.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SIMBAR={3FBFE32D-99D5-44B0-ADBA-50DF773B56B4}; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; InfoPath.2)
+11-10-2008   00:33   83.81.179.59   casema.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)
+11-10-2008   00:37   80.127.0.217   xs4all.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.17) Gecko/20080829 Firefox/2.0.0.17
+11-10-2008   00:41   82.171.91.52   telfort.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SIMBAR={3FBFE32D-99D5-44B0-ADBA-50DF773B56B4}; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; InfoPath.2)
+11-10-2008   01:40   202.43.29.145   ne.jp   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+11-10-2008   07:49   62.131.93.191   planet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; .NET CLR 1.1.4322; InfoPath.2)
+11-10-2008   08:05   83.189.225.77   tele2.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.17) Gecko/20080829 Firefox/2.0.0.17
+11-10-2008   08:05   83.189.225.77   tele2.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.17) Gecko/20080829 Firefox/2.0.0.17
+11-10-2008   08:30   80.201.199.118   belgacom.be   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.17) Gecko/20080829 Firefox/2.0.0.17
+11-10-2008   08:50   82.95.210.100   xs4all.nl   Mozilla/5.0 (Macintosh; U; Intel Mac OS X; nl-nl) AppleWebKit/523.12 (KHTML, like Gecko) Version/3.0.4 Safari/523.12
+11-10-2008   08:55   87.212.19.234   versatel.nl   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_5; nl-nl) AppleWebKit/525.18 (KHTML, like Gecko) Version/3.1.2 Safari/525.20.1
+11-10-2008   09:01   82.95.210.100   xs4all.nl   Mozilla/5.0 (Macintosh; U; Intel Mac OS X; nl-nl) AppleWebKit/523.12 (KHTML, like Gecko) Version/3.0.4 Safari/523.12
+11-10-2008   09:33   77.137.62.117   pppool.de   Mozilla/5.0 (Windows; U; Windows NT 6.0; de; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+11-10-2008   09:43   84.87.158.66   direct-adsl.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+11-10-2008   09:45   82.95.210.100   xs4all.nl   Mozilla/5.0 (Macintosh; U; Intel Mac OS X; nl-nl) AppleWebKit/523.12 (KHTML, like Gecko) Version/3.0.4 Safari/523.12
+11-10-2008   09:45   218.186.8.11   com.sg   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+11-10-2008   09:50   86.92.228.3   direct-adsl.nl   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_5; nl-nl) AppleWebKit/525.18 (KHTML, like Gecko) Version/3.1.2 Safari/525.20.1
+11-10-2008   09:53   86.92.228.3   direct-adsl.nl   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_5; nl-nl) AppleWebKit/525.18 (KHTML, like Gecko) Version/3.1.2 Safari/525.20.1
+11-10-2008   10:02   213.84.223.181   xs4all.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+11-10-2008   10:02   81.59.4.180   versatel.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)
+11-10-2008   10:02   218.186.8.11   com.sg   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+11-10-2008   10:03   80.101.209.223   xs4all.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)
+11-10-2008   10:12   84.87.158.66   direct-adsl.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+11-10-2008   10:34   62.194.103.43   chello.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.17) Gecko/20080829 Firefox/2.0.0.17
+11-10-2008   10:50   62.194.103.43   chello.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.17) Gecko/20080829 Firefox/2.0.0.17
+11-10-2008   11:26   213.93.6.85   chello.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; InfoPath.1)
+11-10-2008   11:28   87.212.19.234   versatel.nl   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_5; nl-nl) AppleWebKit/525.18 (KHTML, like Gecko) Version/3.1.2 Safari/525.20.1
+11-10-2008   11:50   212.123.144.34   telfort.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+11-10-2008   12:19   84.81.84.254   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648)
+11-10-2008   12:22   86.85.119.170   hetnet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+11-10-2008   12:37   212.123.144.34   telfort.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+11-10-2008   12:37   212.123.144.34   telfort.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+11-10-2008   13:21   194.81.230.101   ac.uk   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 1.1.4322)
+11-10-2008   13:22   86.85.119.170   hetnet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+11-10-2008   13:56   213.84.89.46   xs4all.nl   Mozilla/5.0 (Macintosh; U; PPC Mac OS X; nl-nl) AppleWebKit/418.9.1 (KHTML, like Gecko) Safari/419.3
+11-10-2008   14:34   87.210.195.86   versatel.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+11-10-2008   15:14   80.60.212.148   planet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)
+11-10-2008   17:40   82.171.202.120   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+11-10-2008   17:54   86.95.70.119   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; InfoPath.2)
+11-10-2008   17:59   86.95.70.119   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; InfoPath.2)
+11-10-2008   18:17   62.143.164.110   unitymediagroup.de   Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.6) Gecko/20040113
+11-10-2008   18:25   62.143.164.110   unitymediagroup.de   Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.6) Gecko/20040113
+11-10-2008   19:55   83.160.245.43   demon.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+11-10-2008   20:34   86.87.189.151   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)
+11-10-2008   21:09   86.87.189.151   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)
+11-10-2008   22:34   92.64.25.62   25.62   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+11-10-2008   23:55   92.64.25.62   25.62   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+12-10-2008   08:21   87.178.91.134   t-dialin.net   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+12-10-2008   08:34   87.178.91.134   t-dialin.net   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+12-10-2008   10:26   94.210.173.216   ziggo.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+12-10-2008   10:52   82.173.18.250   versatel.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)
+12-10-2008   15:57   82.73.141.49   home.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+12-10-2008   16:45   92.64.25.62   25.62   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+12-10-2008   17:37   86.83.4.190   direct-adsl.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+12-10-2008   17:39   82.73.141.49   home.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+12-10-2008   18:19   82.73.141.49   home.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+12-10-2008   18:22   83.189.225.77   tele2.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.17) Gecko/20080829 Firefox/2.0.0.17
+12-10-2008   18:44   86.83.4.190   direct-adsl.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+12-10-2008   19:18   85.145.238.158   wanadoo.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.16) Gecko/20080702 Firefox/2.0.0.16
+12-10-2008   20:32   82.173.18.250   versatel.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)
+12-10-2008   21:35   77.251.159.13   chello.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.1) Gecko/2008070208 Firefox/3.0.1
+12-10-2008   21:35   77.251.159.13   chello.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.1) Gecko/2008070208 Firefox/3.0.1
+13-10-2008   04:04   202.43.29.145   ne.jp   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+13-10-2008   04:04   202.43.29.145   ne.jp   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+13-10-2008   04:04   202.43.29.145   ne.jp   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+13-10-2008   04:04   202.43.29.145   ne.jp   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+13-10-2008   09:44   15.203.169.106   hp.net   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+13-10-2008   10:00   155.136.80.23   80.23   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 4.0; Config A V1.0)
+13-10-2008   10:17   145.18.225.47   asser.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+13-10-2008   12:25   193.172.18.3   hn.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322)
+13-10-2008   14:30   195.189.216.148   eetpv.com   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 1.1.4322; InfoPath.1)
+13-10-2008   14:39   195.189.216.148   eetpv.com   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 1.1.4322; InfoPath.1)
+13-10-2008   16:10   83.87.166.172   casema.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+13-10-2008   16:55   134.221.128.222   tno.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1)
+13-10-2008   16:56   72.14.193.132   193.132   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; InfoPath.1)
+13-10-2008   17:21   83.87.166.172   casema.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+13-10-2008   17:37   72.14.193.132   193.132   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; InfoPath.1)
+13-10-2008   17:56   193.151.248.5   syscovery.com   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648)
+13-10-2008   23:40   71.100.21.180   verizon.net   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+13-10-2008   23:40   71.100.21.180   verizon.net   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+14-10-2008   12:39   84.86.229.214   planet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+14-10-2008   17:57   82.95.81.22   xs4all.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)
+14-10-2008   19:33   80.61.111.214   planet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.0.3705; .NET CLR 1.1.4322; Media Center PC 4.0)
+17-10-2008   16:19   92.65.78.244   vironet.com   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)
+17-10-2008   20:47   84.85.234.97   hetnet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+17-10-2008   23:39   84.81.84.254   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648)
+18-10-2008   13:57   62.131.93.191   planet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; .NET CLR 1.1.4322; InfoPath.2)
+18-10-2008   14:02   62.131.93.191   planet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; .NET CLR 1.1.4322; InfoPath.2)
+18-10-2008   19:34   15.203.233.76   hp.com   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+18-10-2008   21:44   82.210.126.178   ipact.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)
+19-10-2008   19:02   86.85.119.170   hetnet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+19-10-2008   19:11   86.85.119.170   hetnet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+19-10-2008   19:11   86.85.119.170   hetnet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+19-10-2008   20:48   86.85.119.170   hetnet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+20-10-2008   10:29   80.60.212.148   planet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648)
+20-10-2008   11:18   213.93.6.85   chello.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+20-10-2008   18:21   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+20-10-2008   19:41   86.85.119.170   hetnet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+20-10-2008   23:38   86.85.119.170   hetnet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+21-10-2008   10:13   85.90.80.12   slaz.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30)
+21-10-2008   11:58   84.24.118.152   home.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)
+21-10-2008   15:18   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+21-10-2008   15:20   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+21-10-2008   15:21   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+22-10-2008   10:13   80.60.89.227   planet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Media Center PC 3.0; .NET CLR 1.0.3705; .NET CLR 2.0.50727)
+22-10-2008   10:25   87.212.19.234   versatel.nl   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_5; nl-nl) AppleWebKit/525.18 (KHTML, like Gecko) Version/3.1.2 Safari/525.20.1
+22-10-2008   10:30   80.60.89.227   planet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Media Center PC 3.0; .NET CLR 1.0.3705; .NET CLR 2.0.50727)
+22-10-2008   13:02   82.169.230.93   telfort.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; eMusic DLM/4)
+22-10-2008   13:28   81.204.232.167   hetnet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)
+22-10-2008   16:50   83.83.51.136   casema.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)
+22-10-2008   17:16   83.83.51.136   casema.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)
+22-10-2008   17:30   83.86.207.22   casema.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+22-10-2008   17:37   62.195.25.142   chello.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 1.1.4322; InfoPath.2)
+22-10-2008   17:37   62.195.25.142   chello.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 1.1.4322; InfoPath.2)
+22-10-2008   18:40   83.160.33.93   demon.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30)
+22-10-2008   23:42   96.247.87.204   verizon.net   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; FunWebProducts; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; .NET CLR 1.1.4322)
+23-10-2008   12:04   62.216.7.157   cistron.nl   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-GB; rv:1.9.0.1) Gecko/2008070208 Firefox/3.0.1
+23-10-2008   12:46   62.216.7.157   cistron.nl   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-GB; rv:1.9.0.1) Gecko/2008070208 Firefox/3.0.1
+23-10-2008   15:52   86.84.99.54   hetnet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506)
+23-10-2008   17:46   77.251.157.187   chello.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+23-10-2008   17:46   77.251.157.187   chello.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+23-10-2008   17:48   77.251.157.187   chello.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+23-10-2008   19:51   81.249.63.242   wanadoo.fr   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_4_11; en) AppleWebKit/525.18 (KHTML, like Gecko) Version/3.1.2 Safari/525.22
+23-10-2008   23:17   84.86.238.134   planet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+24-10-2008   10:14   86.95.251.196   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+25-10-2008   16:11   62.45.179.64   caiway.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1)
+25-10-2008   16:13   150.70.84.154   84.154   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+25-10-2008   23:33   86.84.99.54   hetnet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506)
+26-10-2008   11:42   80.57.242.27   chello.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; AtHome033; .NET CLR 1.1.4322)
+26-10-2008   12:48   87.210.54.23   versatel.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; FreeSurf myweb.nl v1.0.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+26-10-2008   13:33   80.57.242.27   chello.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; AtHome033; .NET CLR 1.1.4322)
+26-10-2008   14:18   86.84.99.54   hetnet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506)
+26-10-2008   14:18   80.57.242.27   chello.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; AtHome033; .NET CLR 1.1.4322)
+26-10-2008   14:39   86.84.99.54   hetnet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506)
+26-10-2008   21:14   87.212.19.234   versatel.nl   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_5; nl-nl) AppleWebKit/525.18 (KHTML, like Gecko) Version/3.1.2 Safari/525.20.1
+27-10-2008   15:24   213.84.223.181   xs4all.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+28-10-2008   11:47   86.82.52.170   hetnet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+28-10-2008   16:01   83.160.18.173   demon.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+28-10-2008   16:58   83.160.18.173   demon.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+28-10-2008   17:32   83.160.18.173   demon.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+29-10-2008   21:10   82.95.83.10   xs4all.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; InfoPath.1)
+30-10-2008   11:11   212.238.146.159   demon.nl   Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; en-US; rv:1.9.0.1) Gecko/2008070206 Firefox/3.0.1
+1-11-2008   09:50   62.195.163.76   chello.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 1.1.4322; InfoPath.2)
+1-11-2008   09:57   62.195.163.76   chello.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 1.1.4322; InfoPath.2)
+1-11-2008   09:59   62.195.163.76   chello.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 1.1.4322; InfoPath.2)
+1-11-2008   22:27   77.160.191.44   direct-adsl.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.17) Gecko/20080829 Firefox/2.0.0.17
+2-11-2008   16:54   62.195.163.76   chello.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 1.1.4322; InfoPath.2)
+2-11-2008   17:00   62.195.163.76   chello.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 1.1.4322; InfoPath.2)
+2-11-2008   17:03   62.195.163.76   chello.nl   Microsoft Office Protocol Discovery
+2-11-2008   17:05   62.195.163.76   chello.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 1.1.4322; InfoPath.2)
+2-11-2008   17:29   62.195.163.76   chello.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 1.1.4322; InfoPath.2)
+2-11-2008   17:30   62.195.163.76   chello.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 1.1.4322; InfoPath.2)
+3-11-2008   16:54   80.60.234.177   planet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)
+7-11-2008   23:55   83.81.179.59   casema.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)
+10-11-2008   19:54   84.85.213.124   hetnet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; GESM 1.4.9.0)
+13-11-2008   00:19   213.84.89.46   xs4all.nl   Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_4_11; nl-nl) AppleWebKit/525.18 (KHTML, like Gecko) Version/3.1.2 Safari/525.22
+14-11-2008   22:20   81.204.232.167   hetnet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)
+24-11-2008   22:03   85.145.238.158   wanadoo.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.1) Gecko/2008070208 Firefox/3.0.1
+7-12-2008   11:44   82.171.91.52   telfort.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; InfoPath.2; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648; OfficeLiveConnector.1.3; OfficeLivePatch.1.3)
+9-1-2009   12:37   84.81.100.12   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)
+4-3-2009   12:26   213.126.138.195   prvgld.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+1-4-2009   15:22   213.126.138.195   prvgld.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+21-8-2009   23:27   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2 (.NET CLR 3.5.30729) AutoPager/0.5.2.2 (http://www.teesoft.info/)
+21-8-2009   23:30   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2 (.NET CLR 3.5.30729) AutoPager/0.5.2.2 (http://www.teesoft.info/)
+21-8-2009   23:30   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2 (.NET CLR 3.5.30729) AutoPager/0.5.2.2 (http://www.teesoft.info/)
+21-8-2009   23:30   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2 (.NET CLR 3.5.30729) AutoPager/0.5.2.2 (http://www.teesoft.info/)
+21-8-2009   23:30   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2 (.NET CLR 3.5.30729) AutoPager/0.5.2.2 (http://www.teesoft.info/)
+21-8-2009   23:32   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2 (.NET CLR 3.5.30729) AutoPager/0.5.2.2 (http://www.teesoft.info/)
+21-8-2009   23:39   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2 (.NET CLR 3.5.30729) AutoPager/0.5.2.2 (http://www.teesoft.info/)
+21-8-2009   23:40   84.105.46.84   quicknet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+21-8-2009   23:49   83.83.52.50   casema.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GTB6; SLCC1; .NET CLR 2.0.50727; eSobiSubscriber 2.0.4.16; InfoPath.2; .NET CLR 3.5.30729; .NET CLR 3.0.30618)
+21-8-2009   23:53   86.85.119.170   hetnet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB6)
+22-8-2009   00:01   84.85.59.240   planet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+22-8-2009   00:48   213.73.179.217   quicknet.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+22-8-2009   00:57   86.85.119.170   hetnet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB6)
+22-8-2009   01:17   213.84.89.46   xs4all.nl   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; nl-nl) AppleWebKit/528.16 (KHTML, like Gecko) Version/4.0 Safari/528.16
+22-8-2009   04:14   64.131.135.129   mindspring.com   Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; en-us) AppleWebKit/531.9 (KHTML, like Gecko) Version/4.0.3 Safari/531.9
+22-8-2009   08:39   86.88.90.8   direct-adsl.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.13) Gecko/2009073022 Firefox/3.0.13
+22-8-2009   09:15   62.131.93.191   planet.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB6; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 1.1.4322; InfoPath.2; .NET CLR 3.5.30729; .NET CLR 3.0.30729)
+22-8-2009   09:45   80.61.109.193   planet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+22-8-2009   10:41   82.168.126.54   telfort.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; {6EFA9B29-8AB1-00BE-427B-91027A4E6AB5}; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; InfoPath.1)
+22-8-2009   11:03   193.172.126.231   126.231   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+22-8-2009   11:33   94.208.222.31   ziggo.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+22-8-2009   13:10   213.84.89.46   xs4all.nl   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; nl-nl) AppleWebKit/528.16 (KHTML, like Gecko) Version/4.0 Safari/528.16
+22-8-2009   13:53   86.92.105.155   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618)
+22-8-2009   15:18   71.100.26.69   verizon.net   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+22-8-2009   15:18   71.100.26.69   verizon.net   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+22-8-2009   16:14   213.10.168.162   planet.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB6; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; InfoPath.2; .NET CLR 3.5.30729; .NET CLR 3.0.30618)
+22-8-2009   16:39   83.161.212.141   xs4all.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.1.4322)
+22-8-2009   17:55   84.35.101.245   ipact.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+22-8-2009   19:02   84.85.234.97   hetnet.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+22-8-2009   19:26   82.168.205.40   telfort.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.1.4322; UGESM 1.4.9.0; .NET CLR 2.0.50727; OfficeLiveConnector.1.3; OfficeLivePatch.0.0; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; HYVES)
+22-8-2009   20:52   194.81.230.99   ac.uk   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)
+22-8-2009   20:54   86.83.64.228   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; Tablet PC 2.0; .NET CLR 1.1.4322; .NET CLR 3.5.30729; .NET CLR 3.0.30729)
+22-8-2009   21:03   87.212.19.234   versatel.nl   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; nl-nl) AppleWebKit/531.9 (KHTML, like Gecko) Version/4.0.3 Safari/531.9
+22-8-2009   23:32   86.83.64.228   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; Tablet PC 2.0; .NET CLR 1.1.4322; .NET CLR 3.5.30729; .NET CLR 3.0.30729)
+23-8-2009   00:55   84.35.101.245   ipact.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+23-8-2009   10:47   92.64.25.59   kpn.net   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+23-8-2009   10:48   145.18.225.15   225.15   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.39 Safari/530.5
+23-8-2009   11:02   145.18.225.15   225.15   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.39 Safari/530.5
+23-8-2009   11:12   81.204.244.202   planet.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; InfoPath.2; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+23-8-2009   11:12   81.204.244.202   planet.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; InfoPath.2; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+23-8-2009   12:29   81.206.230.8   hetnet.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; InfoPath.1)
+23-8-2009   15:38   82.170.156.238   telfort.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+23-8-2009   20:29   62.166.232.85   232.85   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+23-8-2009   20:30   86.92.105.155   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618)
+23-8-2009   20:40   82.93.40.112   xs4all.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322)
+23-8-2009   22:52   82.93.71.223   xs4all.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB5; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+24-8-2009   08:46   160.44.247.146   247.146   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; MS-RTC LM 8)
+24-8-2009   10:14   134.221.128.222   tno.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1)
+24-8-2009   11:32   62.51.152.229   aol.com   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-us) AppleWebKit/531.9 (KHTML, like Gecko) Version/4.0.3 Safari/531.9
+24-8-2009   12:01   87.210.195.86   versatel.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729)
+24-8-2009   13:43   131.211.153.64   uu.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Tablet PC 1.7; .NET CLR 1.0.3705; .NET CLR 1.1.4322; InfoPath.1)
+24-8-2009   13:52   77.251.26.98   chello.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.13) Gecko/2009073022 Firefox/3.0.13 (.NET CLR 3.5.30729)
+24-8-2009   15:06   84.31.222.56   home.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB5; .NET CLR 1.1.4322; yie8)
+24-8-2009   18:13   84.85.59.240   planet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+24-8-2009   18:34   87.178.68.161   t-dialin.net   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.13) Gecko/2009073022 Firefox/3.0.13 GTB5
+24-8-2009   18:49   86.93.215.220   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; (R1 1.5); .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+24-8-2009   19:34   84.85.59.240   planet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+24-8-2009   21:27   94.212.60.56   ziggo.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.39 Safari/530.5
+25-8-2009   13:05   77.160.42.130   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GTB6; SLCC1; .NET CLR 2.0.50727; .NET CLR 1.1.4322; .NET CLR 3.5.30729; .NET CLR 3.0.30618)
+25-8-2009   16:45   84.105.46.84   quicknet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+25-8-2009   23:30   84.83.129.233   planet.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+26-8-2009   17:44   87.211.62.127   versatel.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)
+26-8-2009   22:26   84.86.108.127   planet.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618)
+27-8-2009   22:25   84.35.101.245   ipact.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+27-8-2009   23:36   84.81.84.254   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+30-8-2009   10:56   85.145.238.158   wanadoo.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; OFX; GTB6; .NET CLR 1.0.3705; .NET CLR 1.1.4322; Media Center PC 4.0; OFX; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; OFX)
+31-8-2009   14:58   195.193.90.30   90.30   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+31-8-2009   20:00   86.91.136.78   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618)
+1-9-2009   15:57   77.164.252.11   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; GTB6; .NET CLR 1.1.4322)
+2-9-2009   11:28   83.86.201.146   casema.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB6; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618)
+2-9-2009   17:10   82.169.221.76   telfort.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30)
+3-9-2009   09:56   82.169.188.164   telfort.nl   Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; en-US; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2
+3-9-2009   11:20   213.10.168.162   planet.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB6; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; InfoPath.2; .NET CLR 3.5.30729; .NET CLR 3.0.30618)
+4-9-2009   11:29   86.82.52.170   hetnet.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+4-9-2009   15:48   86.94.233.195   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; GTB5)
+4-9-2009   16:48   86.94.233.195   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; GTB5)
+5-9-2009   15:08   83.161.212.141   xs4all.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.1.4322)
+8-9-2009   08:17   145.117.34.248   amc.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB6; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+8-9-2009   21:57   85.144.166.115   wanadoo.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30618)
+18-9-2009   15:58   62.166.19.135   versatel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.14) Gecko/2009082707 Firefox/3.0.14 (.NET CLR 3.5.30729)
+18-9-2009   16:06   62.166.19.135   versatel.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.0.14) Gecko/2009082707 Firefox/3.0.14 (.NET CLR 3.5.30729)
+22-9-2009   10:59   213.84.223.181   xs4all.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+22-9-2009   11:11   213.84.223.181   xs4all.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+26-9-2009   19:00   94.208.222.31   ziggo.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+26-9-2009   19:06   94.208.222.31   ziggo.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+26-9-2009   19:06   94.208.222.31   ziggo.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+4-10-2009   00:33   82.217.78.12   quicknet.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+11-10-2009   12:02   80.57.103.236   chello.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6)
+26-10-2009   18:29   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 6.0; nl; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)
+27-10-2009   12:10   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 6.0; nl; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)
+27-10-2009   15:20   89.247.72.44   versanet.de   Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; it; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3
+27-10-2009   16:30   141.38.3.242   dwd.de   Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3
+27-10-2009   17:21   77.163.8.29   direct-adsl.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3
+27-10-2009   17:37   77.166.108.133   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB0)
+27-10-2009   17:42   83.160.245.43   demon.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+27-10-2009   17:58   77.166.108.133   direct-adsl.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB0)
+27-10-2009   18:21   62.21.180.18   kpn.net   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2)
+27-10-2009   18:29   62.21.180.18   kpn.net   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2)
+27-10-2009   18:44   83.160.245.43   demon.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+27-10-2009   18:48   83.160.245.43   demon.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+27-10-2009   18:51   83.160.245.43   demon.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+27-10-2009   21:14   85.144.160.181   wanadoo.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.27 Safari/532.0
+27-10-2009   21:28   94.212.224.164   ziggo.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; AtHome033; GTB6; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727)
+28-10-2009   20:35   81.71.138.82   wanadoo.nl   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.27 Safari/532.0
+28-10-2009   20:42   94.210.218.42   ziggo.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)
+28-10-2009   22:05   94.210.218.42   ziggo.nl   Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)
+29-10-2009   09:29   83.163.183.3   xs4all.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB6; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618)
+29-10-2009   15:14   62.216.7.157   cistron.nl   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-GB; rv:1.9.0.1) Gecko/2008070208 Firefox/3.0.1 (.NET CLR 3.5.30729)
+29-10-2009   15:36   62.216.7.157   cistron.nl   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-GB; rv:1.9.0.1) Gecko/2008070208 Firefox/3.0.1 (.NET CLR 3.5.30729)
+29-10-2009   22:16   81.206.140.59   planet.nl   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; nl-nl) AppleWebKit/530.19.2 (KHTML, like Gecko) Version/4.0.2 Safari/530.19
+30-10-2009   23:44   83.163.0.247   xs4all.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; OfficeLiveConnector.1.4; OfficeLivePatch.1.3)
+31-10-2009   11:53   83.83.32.214   casema.nl   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+31-10-2009   17:20   80.57.129.216   chello.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 1.1.4322; InfoPath.2; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+1-11-2009   13:49   80.57.129.216   chello.nl   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 1.1.4322; InfoPath.2; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+1-11-2009   23:13   83.160.245.43   demon.nl   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+2-11-2009   12:49   81.71.138.82   wanadoo.nl   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.27 Safari/532.0
+2-11-2009   13:11   81.71.138.82   wanadoo.nl   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.27 Safari/532.0
+2-11-2009   16:24   81.71.138.82   wanadoo.nl   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.27 Safari/532.0
+3-11-2009   11:34   81.71.138.82   wanadoo.nl   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.27 Safari/532.0
+3-11-2009   11:34   81.71.138.82   wanadoo.nl   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.27 Safari/532.0
+4-11-2009   02:50   71.163.149.215   verizon.net   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3
+4-11-2009   03:26   71.163.149.215   verizon.net   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3
+5-11-2009   17:10   145.99.253.185   internl.net   Mozilla/5.0 (Windows; U; Windows NT 6.0; nl; rv:1.9.0.15) Gecko/2009101601 Firefox/3.0.15 (.NET CLR 3.5.30729)
+5-11-2009   18:19   82.171.91.52   telfort.nl   Mozilla/5.0 (Windows; U; Windows NT 6.0; nl; rv:1.9.1.4) Gecko/20091016 Firefox/3.5.4 (.NET CLR 3.5.30729)
+5-11-2009   19:07   93.158.2.230   ibrowse.com   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; fr; rv:1.9.0.14) Gecko/2009082706 Firefox/3.0.14
+5-11-2009   19:57   78.34.100.116   netcologne.de   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; 1&1 Internet AG; Seekmo 10.0.406.0)
+5-11-2009   20:01   93.158.2.230   ibrowse.com   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; fr; rv:1.9.0.14) Gecko/2009082706 Firefox/3.0.14
+8-11-2009   18:56   81.210.242.64   unitymediagroup.de   Mozilla/5.0 (Windows; U; Windows NT 6.0; de; rv:1.9.1.5) Gecko/20091102 Firefox/3.5.5
+8-11-2009   22:15   81.206.140.59   planet.nl   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; nl-nl) AppleWebKit/530.19.2 (KHTML, like Gecko) Version/4.0.2 Safari/530.19
+8-11-2009   23:13   81.206.140.59   planet.nl   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; nl-nl) AppleWebKit/530.19.2 (KHTML, like Gecko) Version/4.0.2 Safari/530.19
+11-11-2009   14:01   141.38.3.242   dwd.de   Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.1.5) Gecko/20091102 Firefox/3.5.5
+11-11-2009   21:47   81.71.138.82   wanadoo.nl   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.27 Safari/532.0

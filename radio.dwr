@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<dwquery>
+  <queryparams matchcase="false" ignorewhitespace="false" useregexp="true"wholeword="false"/>
+  <find>
+    <qtext qname="&lt;tr&gt;
+                     &lt;td&gt;&lt;label&gt;
+                        &lt;input type=&quot;hidden&quot; name=&quot;" qconvertednls="true"></qtext>
+  </find>
+  <replace action="replaceText" param1="<tr>
+                     <td><input type=&quot;radio&quot; name=&quot;" param2=""/>
+</dwquery>

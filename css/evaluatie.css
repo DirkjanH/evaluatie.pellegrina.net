@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("https://www.w3schools.com/lib/w3.css");
+
+body {
+	background: white;
+	padding: 10px;
+}
+div#main {
+	background-color: white;
+	margin: auto;
+	max-width: 600px;
+}
+div#navcontainer {
+	background-color: #B1F2FD;
+	width: 100%;
+	font-size: 10px;
+	padding: 5px;
+	margin-left: 0;
+}
+div#rapport object {
+	position: fixed;
+	width: 80%;
+	height: 100%;
+	float: right;
+}
+.nadruk {
+	font-size: 70%;
+	color: #D30306;
+	font-weight: bold;
+}
+label {
+	font-size: 90%;
+}
+.onzichtbaar {
+	display: none;
+}
+table#opmerkingen, table#marks, table#evaluatie {
+	width: 100%;
+	max-width: 1000px;
+	border-collapse: collapse;
+	font-size: 12px;
+	margin-top: 20px;
+}
+table#opmerkingen td, table#marks td, table#opmerkingen th, table#marks th {
+	text-align: left;
+	vertical-align: top;
+	padding: 3px;
+	border: thin solid black;
+}
+
+table#opmerkingen td.centreer {
+	text-align: center;
+}
+
+th {
+	font-style: italic;
+	background-color: #B1F2FD;
+}
+
+p.vraag_enquete {
+	color: #0A3D24;
+	font-weight: bold;
+	text-align: left;
+	padding-top: 12px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	background-color: #E5E5E5;
+	border: 1px solid #000000;
+}
+input, textarea, radio {
+	background-color: #FFFFD2;
+}
+textarea {
+	width: 100%;
+}
+div#cijfer {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	color: #0000CC;
+	background-color: #FFFFFF;
+}
+@media (max-width:601px){
+div#navcontainer {
+   width: 100%;
+}
+}
