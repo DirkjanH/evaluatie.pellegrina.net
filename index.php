@@ -1,25 +1,3 @@
-<?php
-// zet de tijdzone:
-date_default_timezone_set('Europe/Berlin');
-
-function getisp($ip = '')
-{
-
-   if ($ip == '') $ip = $_SERVER['REMOTE_ADDR'];
-   $longisp = @gethostbyaddr($ip);
-   $isp = explode('.', $longisp);
-   $isp = array_reverse($isp);
-   $tmp = $isp[1];
-   if (preg_match("/\<(org?|com?|net)\>/i", $tmp)) {
-      $myisp = $isp[2] . '.' . $isp[1] . '.' . $isp[0];
-   } else {
-      $myisp = $isp[1] . '.' . $isp[0];
-   }
-   preg_match("/[0-9]{1,3}\.[0-9]{1,3}/", $myisp);
-   return $myisp;
-}
-?>
-
 <!DOCTYPE HTML>
 <html>
 
@@ -90,34 +68,6 @@ function getisp($ip = '')
          <td>
             <div align="center"><a href="evaluatie_barok_uk.php" target="_blank">Evaluation
                   form I</a></div>
-         </td>
-      </tr>
-      <tr>
-         <td height="60" colspan="3">
-            <div class="klein">
-               <div align="center">
-                  <?php
-
-                  $teller = 1;
-                  $tellerbestand = fopen("evaluatieteller.txt", "r");
-                  $teller = $teller + fgets($tellerbestand);
-                  fclose($tellerbestand);
-                  echo ("$teller" . " times opened since 21 August, 2009");
-                  $tellerbestand = fopen("evaluatieteller.txt", "w");
-                  fputs($tellerbestand, $teller);
-                  fclose($tellerbestand);
-
-                  $hos = getisp();
-                  $browser = $_SERVER["REMOTE_ADDR"] . "   " . $hos . "   " . $_SERVER['HTTP_USER_AGENT'];
-                  $browser_info = fopen("browser_info.txt", "a");
-                  fputs($browser_info, date('j-n-Y') . "   ");
-                  fputs($browser_info, date('H:i') . "   ");
-                  fputs($browser_info, $browser . "\n");
-                  fclose($browser_info);
-
-                  ?>
-               </div>
-            </div>
          </td>
       </tr>
    </table>
