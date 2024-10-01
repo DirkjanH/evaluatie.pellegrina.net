@@ -21,7 +21,7 @@ $editFormAction = $_SERVER['PHP_SELF'] . (isset($_SERVER['QUERY_STRING']) ? "?" 
 // Kies jaar
 session_start();
 
-if ($_POST['inzeepdag'] == '') $_POST['inzeepdag'] = 0;
+if (isset($_POST['inzeepdag']) and $_POST['inzeepdag'] == '') $_POST['inzeepdag'] = 0;
 
 d($_SESSION, $_REQUEST);
 
