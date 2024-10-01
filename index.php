@@ -26,7 +26,7 @@ function getisp($ip = '')
 <head>
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta charset="utf-8">
-   <title>La Pellegrina - Overview of Evaluation Forms 2024</title>
+   <title>La Pellegrina - Overview of Evaluation Forms</title>
 
    <link rel="apple-touch-icon" sizes="180x180" href="https://pellegrina.net/Images/Logos/apple-touch-icon.png">
    <link rel="icon" type="image/png" sizes="32x32" href="https://pellegrina.net/Images/Logos/favicon-32x32.png">
