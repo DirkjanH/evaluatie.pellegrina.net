@@ -26,7 +26,7 @@ function getisp($ip = '')
 <head>
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta charset="utf-8">
-   <title>La Pellegrina - Overview of Evaluation Forms 2024</title>
+   <title>La Pellegrina - Overview of Evaluation Forms</title>
 
    <link rel="apple-touch-icon" sizes="180x180" href="https://pellegrina.net/Images/Logos/apple-touch-icon.png">
    <link rel="icon" type="image/png" sizes="32x32" href="https://pellegrina.net/Images/Logos/favicon-32x32.png">
@@ -68,21 +68,8 @@ function getisp($ip = '')
       </tr>
       <tr>
          <td height="60">
-            <div align="left"><strong>I. Baroque Music: Purcell's Chapel Royal</strong><br>
-               (21 - 29 July 2018) </div>
-         </td>
-         <td height="60">
-            <div align="center"><a href="evaluatie_barok.php" target="_blank">Evaluatie-formulier I</a></div>
-         </td>
-         <td>
-            <div align="center"><a href="evaluatie_barok_uk.php" target="_blank">Evaluation
-                  form I</a></div>
-         </td>
-      </tr>
-      <tr>
-         <td height="60">
-            <div align="left"><strong>II. Dvořák &amp; contemporaries</strong><br>
-               (31 July - 10 August 2018) </div>
+            <div align="left"><strong>I. Reicha's Requiem</strong><br>
+               (25 July - 4 August 2024) </div>
          </td>
          <td height="60">
             <div align="center"><a href="evaluatie_romantic.php" target="_blank">Evaluatie-formulier II</a></div>
@@ -94,16 +81,15 @@ function getisp($ip = '')
       </tr>
       <tr>
          <td height="60">
-            <div align="left"><b><strong>III. Play Chamber Music with the Kinsky Trio Prague &amp; Friends<br>
-                  </strong></b>(12 - 19 August 2018)</div>
+            <div align="left"><strong>II. Baroque Music: Vivaldi's Venetian Vespers</strong><br>
+               (11 - 17 August 2024) </div>
          </td>
          <td height="60">
-            <div align="center"><a href="evaluatie_chamber.php" target="_blank">Evaluatie-formulier III</a></div>
+            <div align="center"><a href="evaluatie_barok.php" target="_blank">Evaluatie-formulier I</a></div>
          </td>
          <td>
-            <div align="center"><a href="evaluatie_chamber_uk.php" target="_blank">Evaluation
-                  form III</a></div>
-            <div align="left"></div>
+            <div align="center"><a href="evaluatie_barok_uk.php" target="_blank">Evaluation
+                  form I</a></div>
          </td>
       </tr>
       <tr>
