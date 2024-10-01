@@ -50,11 +50,11 @@
                (25 July - 4 August 2024) </div>
          </td>
          <td height="60">
-            <div align="center"><a href="evaluatie_romantic.php" target="_blank">Evaluatie-formulier II</a></div>
+            <div align="center"><a href="evaluatie_romantic.php" target="_blank">Evaluatie-formulier I</a></div>
          </td>
          <td>
             <div align="center"><a href="evaluatie_romantic_uk.php" target="_blank">Evaluation
-                  form II</a></div>
+                  form I</a></div>
          </td>
       </tr>
       <tr>
@@ -63,11 +63,11 @@
                (11 - 17 August 2024) </div>
          </td>
          <td height="60">
-            <div align="center"><a href="evaluatie_barok.php" target="_blank">Evaluatie-formulier I</a></div>
+            <div align="center"><a href="evaluatie_barok.php" target="_blank">Evaluatie-formulier II</a></div>
          </td>
          <td>
             <div align="center"><a href="evaluatie_barok_uk.php" target="_blank">Evaluation
-                  form I</a></div>
+                  form II</a></div>
          </td>
       </tr>
    </table>
