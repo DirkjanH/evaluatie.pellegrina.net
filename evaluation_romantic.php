@@ -20,9 +20,9 @@ $editFormAction = $_SERVER[ 'PHP_SELF' ] . ( isset( $_SERVER[ 'QUERY_STRING' ] )
 if ( date( 'n' ) <= 7 ) $evaluatie_tabel = 'evaluatie_' . ( date( 'Y' ) - 1 );
 else $evaluatie_tabel = 'evaluatie_' . ( date( 'Y' ) );
 
-$_SESSION[ 'jaar' ] = 2019; 
-$cursusnr = 48;
-$i = $_SESSION['cursusnr'] = 2;
+$_SESSION[ 'jaar' ] = 2023; 
+$cursusnr = 56;
+$i = $_SESSION['cursusnr'] = 1;
 if ($_SESSION[ 'cursusnr' ] > 0) $_SESSION[ 'zoek_cursus' ] = "WHERE cursus = {$cursusnr}"; else $_SESSION[ 'zoek_cursus' ] = '';
 
 $cursus = select_query( "SELECT count(*) FROM {$evaluatie_tabel} WHERE cursus = {$cursusnr}", 0 );
