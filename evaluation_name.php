@@ -32,6 +32,7 @@ d($evaluatie_tabel, $_SESSION);
 
 // begin query Namen
 $Namen = select_query("SELECT `index`, naam FROM {$evaluatie_tabel} {$_SESSION['zoek_cursus']} ORDER BY `index`");
+d($Namen);
 // end Recordset
 
 // begin query Aantallen evaluaties per cursus
