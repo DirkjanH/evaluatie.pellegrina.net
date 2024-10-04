@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 
 require_once $_SERVER["DOCUMENT_ROOT"] . '/vendor/autoload.php';
 
-Kint::$enabled_mode = false;
+Kint::$enabled_mode = true;
 
 // zet de tijdzone:
 date_default_timezone_set('Europe/Berlin');
@@ -30,7 +30,7 @@ else echo 'Dit is geen geldig jaar!<br>';
 
 if (isset($_SESSION['jaar']) and $_SESSION['jaar'] != '') $evaluatie_tabel = 'evaluatie_' . $_SESSION['jaar'];
 
-if (empty($_SESSION['jaar']) or $_SESSION['jaar'] == 2021) $cursusoffset = 51;
+if (empty($_SESSION['jaar']) or $_SESSION['jaar'] == 2024) $cursusoffset = 57;
 
 $_SESSION['cursusoffset'] = $cursusoffset;
 
