@@ -17,7 +17,7 @@ date_default_timezone_set('Europe/Berlin');
 $editFormAction = $_SERVER['PHP_SELF'] . (isset($_SERVER['QUERY_STRING']) ? "?" . $_SERVER['QUERY_STRING'] : "");
 
 // Kies jaar
-
+session_start();
 d($_SESSION, $_REQUEST);
 
 if (date('n') <= 6) $jaar = (date('Y') - 1);
