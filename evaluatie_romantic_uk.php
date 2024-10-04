@@ -374,7 +374,7 @@ require_once('schrijf_naar_DB.php');
             <p>
               <textarea name="coaching_kamermuziek_tx" cols="70" rows="3" id="coaching_kamermuziek_tx"></textarea>
             </p>
-            <p class="vraag_enquete">The programming of the final concert, 'Viennese masters', I consider:</p>
+            <p class="vraag_enquete">The programming of the final concert I consider:</p>
             <table width="200">
               <tr>
                 <td><label>
@@ -648,45 +648,6 @@ require_once('schrijf_naar_DB.php');
               <p>Please give your opinion how this can be improved:</p>
               <p>
                 <textarea name="diner_vrij_tx" cols="70" rows="3" id="diner_vrij_tx"></textarea>
-              </p>
-            </div>
-            <div class="onzichtbaar">
-              <p class="vraag_enquete">This year it was possible to take a meal ticket for evening meals at restaurant Protivínka. I consider this:</p>
-              <table>
-                <tr>
-                  <td><label>
-                      <input type="radio" name="maaltijdpas" value="0">
-                      not applicable<span class="nadruk">(did not make use of it)</span></label></td>
-                </tr>
-                <tr>
-                  <td><label>
-                      <input type="radio" name="maaltijdpas" value="5">
-                      excellent</label></td>
-                </tr>
-                <tr>
-                  <td><label>
-                      <input type="radio" name="maaltijdpas" value="4">
-                      good</label></td>
-                </tr>
-                <tr>
-                  <td><label>
-                      <input type="radio" name="maaltijdpas" value="3">
-                      adequate </label></td>
-                </tr>
-                <tr>
-                  <td><label>
-                      <input type="radio" name="maaltijdpas" value="2">
-                      bad</label></td>
-                </tr>
-                <tr>
-                  <td><label>
-                      <input type="radio" name="maaltijdpas" value="1">
-                      very bad</label></td>
-                </tr>
-              </table>
-              <p>Please give your opinion how this can be improved:</p>
-              <p>
-                <textarea name="maaltijdpas_tx" cols="70" rows="3" id="maaltijdpas_tx"></textarea>
               </p>
             </div>
             <p class="vraag_enquete">The information in the daily bulletin via email and the bulletin board at the monastery I consider:</p>
@@ -1189,7 +1150,7 @@ require_once('schrijf_naar_DB.php');
                 <textarea name="Vlasankova_tx" cols="70" rows="3" id="Vlasankova_tx"></textarea>
               </p>
             </div>
-            <p class="vraag_enquete">I consider the functioning of the assistants Milka and (at the beginning) Madoka:</p>
+            <p class="vraag_enquete">I consider the functioning of organiser Milka:</p>
             <table width="200">
               <tr>
                 <td><label>

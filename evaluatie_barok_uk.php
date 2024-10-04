@@ -341,7 +341,7 @@ require_once('schrijf_naar_DB.php');
             <p>
               <textarea name="coaching_kamermuziek_tx" cols="70" rows="3" id="coaching_kamermuziek_tx"></textarea>
             </p>
-            <p class="vraag_enquete">The programming of the final concert, Rameau &amp; Co,<em> </em>I consider: </p>
+            <p class="vraag_enquete">The programming of the final concert I consider: </p>
             <table width="200">
               <tr>
                 <td><label>
@@ -374,7 +374,7 @@ require_once('schrijf_naar_DB.php');
             <p>
               <textarea name="tutti_tx" cols="70" rows="3" id="tutti_tx"></textarea>
             </p>
-            <p class="vraag_enquete">The rehearsals for Rameau &amp; Co<em> </em>I consider:</p>
+            <p class="vraag_enquete">The rehearsals for the final concert I consider:</p>
             <table width="200">
               <tr>
                 <td><label>

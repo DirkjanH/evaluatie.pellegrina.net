@@ -373,7 +373,7 @@ require_once('schrijf_naar_DB.php');
             <p>
               <textarea name="coaching_kamermuziek_tx" cols="70" rows="3" id="coaching_kamermuziek_tx"></textarea>
             </p>
-            <p class="vraag_enquete">Het programma 'Weense Meesters'<em></em> is mij als volgt
+            <p class="vraag_enquete">Het programma van het slotconcert is mij als volgt
               bevallen:</p>
             <table>
               <tr>
@@ -407,7 +407,7 @@ require_once('schrijf_naar_DB.php');
             <p>
               <textarea name="tutti_tx" cols="70" rows="3" id="tutti_tx"></textarea>
             </p>
-            <p class="vraag_enquete">De voorbereiding van 'Weense Meesters' vond ik:</p>
+            <p class="vraag_enquete">De voorbereiding van het slotconcert vond ik:</p>
             <table>
               <tr>
                 <td><label>
@@ -647,45 +647,6 @@ require_once('schrijf_naar_DB.php');
               <p>Graag je mening hoe dit verbeterd kan worden:</p>
               <p>
                 <textarea name="diner_vrij_tx" cols="70" rows="3" id="diner_vrij_tx"></textarea>
-              </p>
-            </div>
-            <div class="vraag onzichtbaar">
-              <p class="vraag_enquete">Dit jaar was het mogelijk een maaltijdpas voor avondmaaltijden bij restaurant Protivínka te nemen. Dit vond ik:</p>
-              <table>
-                <tr>
-                  <td><label>
-                      <input type="radio" name="maaltijdpas" value="0">
-                      niet van toepassing <span class="nadruk">(geen gebruik van gemaakt)</span></label></td>
-                </tr>
-                <tr>
-                  <td><label>
-                      <input type="radio" name="maaltijdpas" value="5">
-                      zeer goed </label></td>
-                </tr>
-                <tr>
-                  <td><label>
-                      <input type="radio" name="maaltijdpas" value="4">
-                      goed</label></td>
-                </tr>
-                <tr>
-                  <td><label>
-                      <input type="radio" name="maaltijdpas" value="3">
-                      OK </label></td>
-                </tr>
-                <tr>
-                  <td><label>
-                      <input type="radio" name="maaltijdpas" value="2">
-                      slecht</label></td>
-                </tr>
-                <tr>
-                  <td><label>
-                      <input type="radio" name="maaltijdpas" value="1">
-                      zeer slecht</label></td>
-                </tr>
-              </table>
-              <p>Graag je mening hoe dit verbeterd kan worden:</p>
-              <p>
-                <textarea name="maaltijdpas_tx" cols="70" rows="3" id="maaltijdpas_tx"></textarea>
               </p>
             </div>
             <p class="vraag_enquete">De informatievoorziening middels dagelijkse bulletins via email en het prikbord vond
@@ -1193,8 +1154,8 @@ require_once('schrijf_naar_DB.php');
                 <textarea name="Vlasankova_tx" cols="70" rows="3" id="Vlasankova_tx"></textarea>
               </p>
             </div>
-            <p class="vraag_enquete">Ik vond het functioneren van de assistenten
-              Milka en (in het begin) Madoka:</p>
+            <p class="vraag_enquete">Ik vond het functioneren van organisator
+              Milka:</p>
             <table>
               <tr>
                 <td><label>
