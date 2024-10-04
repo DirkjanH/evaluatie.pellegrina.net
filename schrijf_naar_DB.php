@@ -5,12 +5,13 @@ require_once('connections/PDO_connect.php');
 require_once('includes/functions.inc.php');
 
 // stel php in dat deze fouten weergeeft
-ini_set('display_errors', 1);
+//ini_set('display_errors', 1);
+
 error_reporting(E_ALL);
 
-require_once('vendor/autoload.php');
+require_once $_SERVER["DOCUMENT_ROOT"] . '/vendor/autoload.php';
 
-Kint::$enabled_mode = true;
+Kint::$enabled_mode = false;
 
 // zet de tijdzone:
 date_default_timezone_set('Europe/Berlin');
@@ -21,22 +22,18 @@ $editFormAction = $_SERVER['PHP_SELF'] . (isset($_SERVER['QUERY_STRING']) ? "?" 
 // Kies jaar
 session_start();
 
-if (isset($_POST['inzeepdag']) and $_POST['inzeepdag'] == '') $_POST['inzeepdag'] = 0;
-
 d($_SESSION, $_REQUEST);
 
-if (date('n') <= 6) $evaluatie_tabel = 'evaluatie_' . (date('Y') - 1);
+if (date('n') <= 7) $evaluatie_tabel = 'evaluatie_' . (date('Y') - 1);
 else $evaluatie_tabel = 'evaluatie_' . (date('Y'));
-
-d($evaluatie_tabel);
 
 if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "evaluatie")) {
   $insertSQL = sprintf(
-    "INSERT INTO {$evaluatie_tabel} (naam, tijd, cursus, publiciteit, naam_aanbrenger, publiciteit_tx, website, website_tx, info_vooraf, info_vooraf_tx, prijs, prijs_tx, belangrijk, belangrijk_tx, inzeepdag, inzeepdag_tx, duur, duur_tx, periode, periode_tx, prijsduur, prijsduur_tx, verschillen, eenpers, eenpers_tx, professionaliteit, professionaliteit_tx, kamermuziek, kamermuziek_tx, coaching_kamermuziek, coaching_kamermuziek_tx, tutti, tutti_tx, coaching_tutti, coaching_tutti_tx, lezing, lezing_tx, acc_name, accommodatie, accommodatie_tx, werkruimte, werkruimte_tx, plaats, plaats_tx, maaltijden, maaltijden_tx, info_terplekke, info_terplekke_tx, dagindeling, dagindeling_tx, zwaarte, zwaarte_tx, groepsgrootte, groepsgrootte_tx, indiv_lessen, indiv_lessen_tx, solo_spelen, solo_spelen_tx, diner_vrij, diner_vrij_tx,
+    "INSERT INTO {$evaluatie_tabel} (naam, tijd, cursus, publiciteit, naam_aanbrenger, publiciteit_tx, website, website_tx, info_vooraf, info_vooraf_tx, prijs, prijs_tx, belangrijk, belangrijk_tx, inzeepdag, inzeepdag_tx, duur, duur_tx, periode, periode_tx, prijsduur, prijsduur_tx, verschillen, eenpers, eenpers_tx, professionaliteit, professionaliteit_tx, kamermuziek, kamermuziek_tx, coaching_kamermuziek, coaching_kamermuziek_tx, tutti, tutti_tx, coaching_tutti, coaching_tutti_tx, lezing, lezing_tx, acc_name, accommodatie, accommodatie_tx, werkruimte, werkruimte_tx, plaats, plaats_tx, diner_vrij, diner_vrij_tx, maaltijden, maaltijden_tx, info_terplekke, info_terplekke_tx, dagindeling, dagindeling_tx, zwaarte, zwaarte_tx, groepsgrootte, groepsgrootte_tx, indiv_lessen, indiv_lessen_tx, solo_spelen, solo_spelen_tx, 
 
-Lohmann, Lohmann_tx, Horringa1, Horringa1_tx, Vitale, Vitale_tx, Semkiw, Semkiw_tx, Sandler1, Sandler1_tx, 
+Lindeijer, Lindeijer_tx, Huizinga, Huizinga_tx, Horringa1, Horringa1_tx, Valorz, Valorz_tx, Rodriguez, Rodriguez_tx, Sandler1, Sandler1_tx, 
 
-Bernaskova3, Bernaskova3_tx, BernasekP, BernasekP_tx, Horringa3, Horringa3_tx, Horejsi, Horejsi_tx, Novacek, Novacek_tx, Sandler3, Sandler3_tx, Sternadel, Sternadel_tx, Vacek, Vacek_tx, Vlasankova, Vlasankova_tx,
+Bernaskova3, Bernaskova3_tx, Vlasankova, Vlasankova_tx, BernasekP, BernasekP_tx, Horringa3, Horringa3_tx, Horejsi, Horejsi_tx, Novacek, Novacek_tx, Sandler3, Sandler3_tx, Sternadel, Sternadel_tx,
 
 ass_1, ass_1_tx, ass_2, ass_2_tx, ass_3, ass_3_tx, cijfer_LP, cijfer_LP_tx, niveau, niveau_tx, kinderen, kinderen_tx, rep_wensen, alg_wensen, citaat) 
 
@@ -85,6 +82,8 @@ VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, 
     quote($_POST['werkruimte_tx']),
     quote($_POST['plaats']),
     quote($_POST['plaats_tx']),
+    quote($_POST['diner_vrij']),
+    quote($_POST['diner_vrij_tx']),
     quote($_POST['maaltijden']),
     quote($_POST['maaltijden_tx']),
     quote($_POST['info_terplekke']),
@@ -99,22 +98,24 @@ VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, 
     quote($_POST['indiv_lessen_tx']),
     quote($_POST['solo_spelen']),
     quote($_POST['solo_spelen_tx']),
-    quote($_POST['diner_vrij']),
-    quote($_POST['diner_vrij_tx']),
 
-    quote($_POST['Lohmann']),
-    quote($_POST['Lohmann_tx']),
+    quote($_POST['Lindeijer']),
+    quote($_POST['Lindeijer_tx']),
+    quote($_POST['Huizinga']),
+    quote($_POST['Huizinga_tx']),
     quote($_POST['Horringa1']),
     quote($_POST['Horringa1_tx']),
-    quote($_POST['Vitale']),
-    quote($_POST['Vitale_tx']),
-    quote($_POST['Semkiw']),
-    quote($_POST['Semkiw_tx']),
+    quote($_POST['Valorz']),
+    quote($_POST['Valorz_tx']),
+    quote($_POST['Rodriguez']),
+    quote($_POST['Rodriguez_tx']),
     quote($_POST['Sandler1']),
     quote($_POST['Sandler1_tx']),
 
     quote($_POST['Bernaskova3']),
     quote($_POST['Bernaskova3_tx']),
+    quote($_POST['Vlasankova']),
+    quote($_POST['Vlasankova_tx']),
     quote($_POST['BernasekP']),
     quote($_POST['BernasekP_tx']),
     quote($_POST['Horringa3']),
@@ -127,10 +128,6 @@ VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, 
     quote($_POST['Sandler3_tx']),
     quote($_POST['Sternadel']),
     quote($_POST['Sternadel_tx']),
-    quote($_POST['Vacek']),
-    quote($_POST['Vacek_tx']),
-    quote($_POST['Vlasankova']),
-    quote($_POST['Vlasankova_tx']),
 
     quote($_POST['ass_1']),
     quote($_POST['ass_1_tx']),
