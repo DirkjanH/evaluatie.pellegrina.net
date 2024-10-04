@@ -28,7 +28,7 @@ else echo 'Dit is geen geldig jaar!<br>';
 
 d(date('n'));
 
-d($evaluatie_tabel);
+d($evaluatie_tabel, $_SESSION);
 
 // begin query Namen
 $Namen = select_query("SELECT `index`, naam FROM {$evaluatie_tabel} {$_SESSION['zoek_cursus']} ORDER BY `index`");
