@@ -28,6 +28,8 @@ d($_SESSION, $_REQUEST);
 if (date('n') <= 6) $evaluatie_tabel = 'evaluatie_' . (date('Y') - 1);
 else $evaluatie_tabel = 'evaluatie_' . (date('Y'));
 
+d($evaluatie_tabel);
+
 if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "evaluatie")) {
   $insertSQL = sprintf(
     "INSERT INTO {$evaluatie_tabel} (naam, tijd, cursus, publiciteit, naam_aanbrenger, publiciteit_tx, website, website_tx, info_vooraf, info_vooraf_tx, prijs, prijs_tx, belangrijk, belangrijk_tx, inzeepdag, inzeepdag_tx, duur, duur_tx, periode, periode_tx, prijsduur, prijsduur_tx, verschillen, eenpers, eenpers_tx, professionaliteit, professionaliteit_tx, kamermuziek, kamermuziek_tx, coaching_kamermuziek, coaching_kamermuziek_tx, tutti, tutti_tx, coaching_tutti, coaching_tutti_tx, lezing, lezing_tx, acc_name, accommodatie, accommodatie_tx, werkruimte, werkruimte_tx, plaats, plaats_tx, maaltijden, maaltijden_tx, info_terplekke, info_terplekke_tx, dagindeling, dagindeling_tx, zwaarte, zwaarte_tx, groepsgrootte, groepsgrootte_tx, indiv_lessen, indiv_lessen_tx, solo_spelen, solo_spelen_tx, diner_vrij, diner_vrij_tx,
