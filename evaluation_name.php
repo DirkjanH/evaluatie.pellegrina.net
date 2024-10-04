@@ -129,7 +129,7 @@ $evaluatie = select_query($query_evaluatie, 1);
                   </a>
                <?php   } ?>
             <?php } ?>
-            <input type="hidden" name="index" id="index" value="test">
+            <input type="hidden" name="index" id="index">
          </form>
       </div>
    </div>
