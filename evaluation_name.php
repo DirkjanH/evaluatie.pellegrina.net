@@ -1,8 +1,4 @@
 <?php
-// stel php in dat deze fouten weergeeft
-//ini_set('display_errors', 1);
-error_reporting(E_ALL);
-
 //Connection statement
 require_once('kies_jaar.php');
 

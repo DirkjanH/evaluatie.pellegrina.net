@@ -1,5 +1,4 @@
 <?php //Connection via PDO
-error_reporting(E_ALL);
 
 $DATABASE = 'pellegrina_eval';
 $USERNAME = 'pellegrina_eval';
