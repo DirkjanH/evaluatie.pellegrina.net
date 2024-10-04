@@ -57,7 +57,6 @@ $evaluatie = select_query($query_evaluatie, 1);
 
    <title>Evaluations by name</title>
    <script type="text/javascript">
-      //<!--
       function Toon(Id) {
          document.getElementById("index").value = Id;
          document.getElementById("vinden").submit();
@@ -67,7 +66,6 @@ $evaluatie = select_query($query_evaluatie, 1);
          document.getElementById("cursusnr").value = Nr;
          document.getElementById("cursus_set").submit();
       }
-      -- >
    </script>
    <link href="css/evaluatie.css" rel="stylesheet" type="text/css">
    <style type="text/css">
