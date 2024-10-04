@@ -1,6 +1,6 @@
 <?php
 // stel php in dat deze fouten weergeeft
-//ini_set('display_errors', 1);
+ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
 //Connection statement
@@ -9,7 +9,7 @@ require_once('kies_jaar.php');
 // build the form action
 $editFormAction = $_SERVER['PHP_SELF'] . (isset($_SERVER['QUERY_STRING']) ? "?" . $_SERVER['QUERY_STRING'] : "");
 
-Kint::$enabled_mode = false;
+Kint::$enabled_mode = true;
 
 // zet de tijdzone:
 date_default_timezone_set('Europe/Berlin');
