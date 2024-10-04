@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 
 require_once $_SERVER["DOCUMENT_ROOT"] . '/vendor/autoload.php';
 
-Kint::$enabled_mode = true;
+Kint::$enabled_mode = false;
 
 // zet de tijdzone:
 date_default_timezone_set('Europe/Berlin');
