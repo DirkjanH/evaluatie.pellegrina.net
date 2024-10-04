@@ -32,7 +32,7 @@ if (isset($_POST['index'])) {
    $colname__evaluatie = $_POST['index'];
 }
 $query_evaluatie = sprintf("SELECT * FROM {$evaluatie_tabel} WHERE `index` = %s", quote($colname__evaluatie));
-// echo 'Query evaluatie = '.$query_evaluatie.'<br>';
+d($query_evaluatie);
 $evaluatie = select_query($query_evaluatie, 1);
 // end Recordset
 
