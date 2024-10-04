@@ -46,9 +46,12 @@ if (is_array($report)) foreach ($report as $row) {
 		$cijfers[] = $row[$punten];
 }
 
-$aantal = count($cijfers);
-$gemiddelde = round(average($cijfers), 1);
-$spreiding = round(deviation($cijfers), 2);
+if (is_array($cijfers)) {
+	$aantal = count($cijfers);
+	$gemiddelde = round(average($cijfers), 1);
+	$spreiding = round(deviation($cijfers), 2);
+} else $aantal = $gemiddelde = $spreiding = 0;
+
 
 ?>
 <!DOCTYPE HTML>
