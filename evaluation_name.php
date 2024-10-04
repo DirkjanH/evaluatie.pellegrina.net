@@ -9,7 +9,7 @@ require_once('kies_jaar.php');
 // build the form action
 $editFormAction = $_SERVER['PHP_SELF'] . (isset($_SERVER['QUERY_STRING']) ? "?" . $_SERVER['QUERY_STRING'] : "");
 
-require_once vendor/autoload.php';
+require_once '/vendor/autoload.php';
 
 Kint::$enabled_mode = false;
 
