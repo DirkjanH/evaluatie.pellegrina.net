@@ -52,7 +52,7 @@ require_once('schrijf_naar_DB.php');
                 </td>
               </tr>
             </table>
-            <input name="cursus" type="hidden" id="cursus" value="57">
+            <input name="cursus" type="hidden" id="cursus" value="59">
             <input name="tijd" type="hidden" id="tijd" value="<?php echo date("Y-m-d H:i:s"); ?>">
             <hr>
             <h2>Publiciteit &amp; bekendheid </h2>
