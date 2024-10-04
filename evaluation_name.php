@@ -6,30 +6,6 @@ error_reporting(E_ALL);
 //Connection statement
 require_once('kies_jaar.php');
 
-// build the form action
-$editFormAction = $_SERVER['PHP_SELF'] . (isset($_SERVER['QUERY_STRING']) ? "?" . $_SERVER['QUERY_STRING'] : "");
-
-Kint::$enabled_mode = true;
-
-// zet de tijdzone:
-date_default_timezone_set('Europe/Berlin');
-
-// build the form action
-$editFormAction = $_SERVER['PHP_SELF'] . (isset($_SERVER['QUERY_STRING']) ? "?" . $_SERVER['QUERY_STRING'] : "");
-
-// Kies jaar
-session_start();
-if (date('n') <= 6) $jaar = (date('Y') - 1);
-else $jaar = date('Y');
-
-if (empty($_GET['jaar']) or $_GET['jaar'] == '') $_SESSION['jaar'] = $jaar;
-elseif ($_GET['jaar'] >= 2006 and $_GET['jaar'] <= $jaar) $_SESSION['jaar'] = $_GET['jaar'];
-else echo 'Dit is geen geldig jaar!<br>';
-
-d(date('n'));
-
-d($evaluatie_tabel, $_SESSION);
-
 // begin query Namen
 $Namen = select_query("SELECT `index`, naam FROM {$evaluatie_tabel} {$_SESSION['zoek_cursus']} ORDER BY `index`");
 d($Namen);
