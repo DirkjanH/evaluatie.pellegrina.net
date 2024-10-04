@@ -10,7 +10,7 @@ error_reporting(E_ALL);
 
 require_once('vendor/autoload.php');
 
-Kint::$enabled_mode = false;
+Kint::$enabled_mode = true;
 
 // zet de tijdzone:
 date_default_timezone_set('Europe/Berlin');
