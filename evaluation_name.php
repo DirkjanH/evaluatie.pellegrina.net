@@ -508,7 +508,7 @@ $evaluatie = select_query($query_evaluatie, 1);
       <td colspan=\"2\">({$evaluatie['ass_2']}) {$evaluatie['ass_2_tx']}</td>
    </tr>"; ?>
          <?php if ($evaluatie['ass_3'] != 0 or $evaluatie['ass_3_tx'] != null) echo " 	<tr>
-      <td>assistants Milka, Madoka, Jana & Anička</td>
+      <td>organizer Milka</td>
       <td colspan=\"2\">({$evaluatie['ass_3']}) {$evaluatie['ass_3_tx']}</td>
    </tr>"; ?>
       </table>
