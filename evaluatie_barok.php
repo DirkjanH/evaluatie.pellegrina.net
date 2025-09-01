@@ -161,13 +161,13 @@ require_once('schrijf_naar_DB.php');
             <p>
               <textarea name="Info_vooraf_tx" cols="70" rows="3" id="Info_vooraf_tx"></textarea>
             </p>
-            <p class="vraag_enquete">Dit jaar duurde de cursus 7 dagen, langer dan vorig jaar. Ik beschouw als optimale cursusduur:</p>
+            <p class="vraag_enquete">Dit jaar duurde de cursus 7 dagen. Ik beschouw als optimale cursusduur:</p>
             <input type="hidden" name="duur" value="0">
             <table width="100%">
               <tr>
                 <td><label>
                     <input type="radio" name="duur" value="5">
-                    5 dagen zonder een vrije dag<span class="nadruk"> (zoals vorig jaar)</span></label></td>
+                    5 dagen zonder een vrije dag</label></td>
               </tr>
               <tr>
                 <td><label>

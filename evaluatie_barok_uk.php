@@ -164,12 +164,12 @@ require_once('schrijf_naar_DB.php');
             <p>
               <textarea name="Info_vooraf_tx" cols="70" rows="3" id="Info_vooraf_tx"></textarea>
             </p>
-            <p class="vraag_enquete">This year the course duration was 7 days, longer than last year. I consider the optimal course duration:</p>
+            <p class="vraag_enquete">This year the course duration was 7 days. I consider the optimal course duration:</p>
             <input type="hidden" name="duur" value="0">
             <table>
               <tr>
                 <td><label><input type="radio" name="duur" value="5">
-                    5 days without a free day <span class="nadruk">(like last year)</span></label>
+                    5 days without a free day</label>
                 </td>
               </tr>
               <tr>
