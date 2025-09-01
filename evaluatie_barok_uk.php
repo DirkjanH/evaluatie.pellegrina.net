@@ -31,7 +31,7 @@ require_once('schrijf_naar_DB.php');
     <table id="evaluatie">
       <tr>
         <td>
-          <h1>Evaluation Vivaldi's Venetian Vespers</h1>
+          <h1>Evaluation Purcell & Handel</h1>
           <p><b>Simply jump from question to question using the mouse or the Tab
               key. Should you encounter problem sending in this form, please click <a href="fout_uk.htm" target="_blank">here</a>.</b></p>
           <hr>

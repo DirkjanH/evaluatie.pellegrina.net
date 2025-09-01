@@ -28,7 +28,7 @@ require_once('schrijf_naar_DB.php');
     <table id="evaluatie">
       <tr>
         <td>
-          <h1>Evaluatie Reicha's Requiem</h1>
+          <h1>Evaluatie Missa in tempore belli</h1>
           <p><b>Spring eenvoudig met behulp van de muis of de Tab-toets van vraag
               naar vraag</b>. <b>Mocht je problemen tegenkomen bij het verzenden
               van het formulier, klik dan <a href="fout.htm" target="_blank">hier</a>.</b></p>

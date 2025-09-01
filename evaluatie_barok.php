@@ -29,7 +29,7 @@ require_once('schrijf_naar_DB.php');
     <table id="evaluatie">
       <tr>
         <td>
-          <h1>Evaluatie Vivaldi's Venetiaanse Vespers</h1>
+          <h1>Evaluatie Purcell & Handel</h1>
           <p><b>Spring eenvoudig met behulp van de muis of de Tab-toets van vraag
               naar vraag. Mocht je problemen tegenkomen bij het verzenden van het formulier,
               klik dan <a href="fout.htm" target="_blank">hier</a>.</b></p>
