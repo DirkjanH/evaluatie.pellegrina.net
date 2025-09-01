@@ -46,8 +46,8 @@
       </tr>
       <tr>
          <td height="60">
-            <div align="left"><strong>I. Reicha's Requiem</strong><br>
-               (25 July - 4 August 2024) </div>
+            <div align="left"><strong>I. Missa in tempore belli</strong><br>
+               (24 July - 3 August 2025) </div>
          </td>
          <td height="60">
             <div align="center"><a href="evaluatie_romantic.php" target="_blank">Evaluatie-formulier I</a></div>
@@ -59,8 +59,8 @@
       </tr>
       <tr>
          <td height="60">
-            <div align="left"><strong>II. Baroque Music: Vivaldi's Venetian Vespers</strong><br>
-               (11 - 17 August 2024) </div>
+            <div align="left"><strong>II. Baroque Music: Purcell & Handel</strong><br>
+               (10 - 16 August 2025) </div>
          </td>
          <td height="60">
             <div align="center"><a href="evaluatie_barok.php" target="_blank">Evaluatie-formulier II</a></div>
