@@ -33,7 +33,7 @@ if (empty($_POST['cursusnr'])) $_SESSION['cursusnr'] = 1;
 
 $_SESSION['cursusoffset'] = $cursusoffset;
 if (isset($_POST['cursusnr'])) $_SESSION['cursusnr'] = $_POST['cursusnr'];
-$cursusnr = $_POST['cursusnr'] + $cursusoffset;
+// $cursusnr = $_POST['cursusnr'] + $cursusoffset;
 if ($_SESSION['cursusnr'] > 0) $_SESSION['zoek_cursus'] = "WHERE cursus = {$cursusnr}";
 else $_SESSION['zoek_cursus'] = '';
 
