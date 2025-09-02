@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 require_once('connections/PDO_connect.php');
 require_once $_SERVER["DOCUMENT_ROOT"] . '/vendor/autoload.php';
 
-Kint::$enabled_mode = false;
+Kint::$enabled_mode = true;
 
 // zet de tijdzone:
 date_default_timezone_set('Europe/Berlin');
@@ -16,6 +16,8 @@ $editFormAction = $_SERVER['PHP_SELF'] . (isset($_SERVER['QUERY_STRING']) ? "?" 
 
 // Kies jaar
 session_start();
+
+d($_SESSION);
 
 if (date('n') <= 6) $jaar = (date('Y') - 1);
 else $jaar = date('Y');
