@@ -1,5 +1,5 @@
 <?php
-$naam = "Karel & Jana Dvořáčkovi & Jana Nebesařová";
+$naam = "assistant baroque";
 $punten = "ass_2";
 
 require_once('docentenrapport.php');
