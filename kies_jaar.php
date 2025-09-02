@@ -31,7 +31,8 @@ if (isset($_SESSION['jaar']) and $_SESSION['jaar'] != '') $evaluatie_tabel = 'ev
 if (empty($_SESSION['jaar']) or $_SESSION['jaar'] == 2025) $_SESSION['cursusoffset'] = 59;
 if (empty($_POST['cursusnr']) AND empty($_SESSION['cursusnr'])) $_SESSION['cursusnr'] = 0;
 if (isset($_POST['cursusnr'])) $_SESSION['cursusnr'] = $_POST['cursusnr'];
-if ($_SESSION['cursusnr'] > 0) $_SESSION['zoek_cursus'] = "WHERE cursus = {$cursusnr}";
+$_SESSION['cursus'] = $_SESSION['cursusnr'] + $_SESSION['cursusoffset'];
+if ($_SESSION['cursus'] > $_SESSION['cursusoffset']) $_SESSION['zoek_cursus'] = "WHERE cursus = {$_SESSION['cursus']}";
 else $_SESSION['zoek_cursus'] = '';
 
 d($_GET, $_REQUEST, $evaluatie_tabel, $_SESSION);
