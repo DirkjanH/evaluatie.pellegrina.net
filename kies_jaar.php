@@ -29,6 +29,7 @@ else echo 'Dit is geen geldig jaar!<br>';
 if (isset($_SESSION['jaar']) and $_SESSION['jaar'] != '') $evaluatie_tabel = 'evaluatie_' . $_SESSION['jaar'];
 
 if (empty($_SESSION['jaar']) or $_SESSION['jaar'] == 2025) $cursusoffset = 59;
+if (empty($_SESSION['cursusnr']) or $_SESSION['cursusnr'] == 1) $cursusnr = 1 + $cursusoffset;
 
 $_SESSION['cursusoffset'] = $cursusoffset;
 $_SESSION['cursusnr'] = $_POST['cursusnr'];
