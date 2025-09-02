@@ -17,8 +17,6 @@ $editFormAction = $_SERVER['PHP_SELF'] . (isset($_SERVER['QUERY_STRING']) ? "?" 
 // Kies jaar
 session_start();
 
-d($_SESSION);
-
 if (date('n') <= 6) $jaar = (date('Y') - 1);
 else $jaar = date('Y');
 
@@ -35,4 +33,4 @@ $_SESSION['cursus'] = $_SESSION['cursusnr'] + $_SESSION['cursusoffset'];
 if ($_SESSION['cursus'] > $_SESSION['cursusoffset']) $_SESSION['zoek_cursus'] = "WHERE cursus = {$_SESSION['cursus']}";
 else $_SESSION['zoek_cursus'] = '';
 
-d($_GET, $_REQUEST, $evaluatie_tabel, $_SESSION);
+d($_GET, $_POST, $evaluatie_tabel, $_SESSION);
