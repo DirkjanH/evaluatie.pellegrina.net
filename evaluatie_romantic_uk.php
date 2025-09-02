@@ -548,7 +548,7 @@ require_once('schrijf_naar_DB.php');
             <p>
               <textarea name="accommodatie_tx" cols="70" rows="3" id="accommodatie_tx"></textarea>
             </p>
-            <p class="vraag_enquete">The classrooms and the instruments at the monastery I consider:</p>
+            <p class="vraag_enquete">The classrooms and the instruments at the conservatoire I consider:</p>
             <table width="200">
               <tr>
                 <td><label>
@@ -650,7 +650,7 @@ require_once('schrijf_naar_DB.php');
                 <textarea name="diner_vrij_tx" cols="70" rows="3" id="diner_vrij_tx"></textarea>
               </p>
             </div>
-            <p class="vraag_enquete">The information in the daily bulletin via email and the bulletin board at the monastery I consider:</p>
+            <p class="vraag_enquete">The information in the daily bulletin via email and the bulletin board at the conservatoire I consider:</p>
             <table width="200">
               <tr>
                 <td><label>
@@ -749,7 +749,7 @@ require_once('schrijf_naar_DB.php');
             <p>
               <textarea name="zwaarte_tx" cols="70" rows="3" id="zwaarte_tx"></textarea>
             </p>
-            <p class="vraag_enquete">The group size I consider:</p>
+            <p class="vraag_enquete">The total group size I consider:</p>
             <table width="200">
               <tr>
                 <td><label>
