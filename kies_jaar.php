@@ -4,7 +4,7 @@ error_reporting(E_ALL);
 
 //Connection statement [PDO]
 require_once('connections/PDO_connect.php');
-require_once($_SERVER['DOCUMENT_ROOT'] . '/includes/functies.php');
+//require_once($_SERVER['DOCUMENT_ROOT'] . '/includes/functies.php');
 require_once $_SERVER["DOCUMENT_ROOT"] . '/vendor/autoload.php';
 
 Kint::$enabled_mode = false;
