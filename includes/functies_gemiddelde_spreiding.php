@@ -5,6 +5,7 @@
 function average($array)
 {
 	if (is_array($array)) {
+		foreach ($array as $arrayvalue) $arrayvalue = intval($arrayvalue);
 		$sum  = array_sum($array);
 		$count = count($array);
 	}
@@ -16,6 +17,7 @@ function average($array)
 function deviation($array)
 {
 	if (is_array($array) and count($array) > 0) {
+		foreach ($array as $arrayvalue) $arrayvalue = intval($arrayvalue);
 		$avg = average($array);
 		foreach ($array as $value) $variance[] = pow($value - $avg, 2);
 		$deviation = sqrt(average($variance));
@@ -26,7 +28,7 @@ function deviation($array)
 $cijfers = array();
 foreach ($report as $rep) {
 	if (isset($rep[$punten]) and $rep[$punten] != '')
-		$cijfers[] = $rep[$punten];
+		$cijfers[] = intval($rep[$punten]);
 };
 
 $aantal = count($cijfers);
