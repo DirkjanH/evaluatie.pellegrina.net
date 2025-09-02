@@ -681,7 +681,7 @@ require_once('schrijf_naar_DB.php');
             <p>
               <textarea name="zwaarte_tx" cols="70" rows="3" id="zwaarte_tx"></textarea>
             </p>
-            <p class="vraag_enquete">De groepsgrootte vond ik:</p>
+            <p class="vraag_enquete">De grootte van de gehele groep vond ik:</p>
             <table width="200">
               <tr>
                 <td><label>
