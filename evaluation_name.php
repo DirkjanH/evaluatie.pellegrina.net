@@ -9,13 +9,13 @@ d($Namen);
 
 // begin query Aantallen evaluaties per cursus
 for ($i = 1; $i <= 5; $i++) {
-   $cursusnr = $i + $cursusoffset;
+   $cursusnr = $i;
    $cursus[$i] = select_query("SELECT count(*) FROM {$evaluatie_tabel} WHERE cursus = {$cursusnr}", 0);
 }
 $cursus[0] = array_sum($cursus);
 // end Recordset
 
-$aantal_deelnemers = array(0 => 105, 1 => 64, 2 => 41, 3 => 0, 4 => 0, 5 => 0);
+$aantal_deelnemers = array(0 => 99, 1 => 69, 2 => 30, 3 => 0, 4 => 0, 5 => 0);
 
 foreach ($cursus as $i => $c) {
    if ($aantal_deelnemers[$i] > 0) $procent[$i] = round($c / $aantal_deelnemers[$i] * 100, 0);
@@ -100,8 +100,7 @@ $evaluatie = select_query($query_evaluatie, 1);
             <?php foreach ($cursus as $i => $c) {
                if ($c > 0 and $i > 0) {
                   $checked = '';
-                  if (isset($_SESSION['cursusnr']) and ($_SESSION['cursusnr'] -
-                     $cursusoffset == $i)) $checked = 'checked';
+                  if (isset($_SESSION['cursusnr']) and ($_SESSION['cursusnr'] == $i)) $checked = 'checked';
                   echo "<input name=\"cursus\" id=\"radio\" type=\"radio\"
         {$checked} onClick=\"CursusZoek({$i})\"> Course {$i}: {$c} van
         {$aantal_deelnemers[$i]} = {$procent[$i]}%<br>";
