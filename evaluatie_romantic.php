@@ -1154,8 +1154,8 @@ require_once('schrijf_naar_DB.php');
                 <textarea name="Vlasankova_tx" cols="70" rows="3" id="Vlasankova_tx"></textarea>
               </p>
             </div>
-            <p class="vraag_enquete">Ik vond het functioneren van organisator
-              Milka:</p>
+            <p class="vraag_enquete">Ik vond het functioneren van organisatoren
+              Milka en Madoka:</p>
             <table>
               <tr>
                 <td><label>
