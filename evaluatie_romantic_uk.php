@@ -268,9 +268,8 @@ require_once('schrijf_naar_DB.php');
             </p>
             <hr>
             <h2>Content</h2>
-            <div class="onzichtbaar">
-              <p class="vraag_enquete">The preparatory rehearsal on June 11
-                in Holland was:</p>
+            <div class="">
+              <p class="vraag_enquete">The preparatory rehearsal in Holland was:</p>
               <table>
                 <tr>
                   <td><label><input type="radio" name="inzeepdag" value="0" checked>

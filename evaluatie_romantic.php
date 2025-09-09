@@ -266,8 +266,7 @@ require_once('schrijf_naar_DB.php');
             <hr>
             <h2>Inhoud</h2>
             <div class="">
-              <p class="vraag_enquete">De voorbereidende repetitie op 11 juni
-                is me als volgt bevallen:</p>
+              <p class="vraag_enquete">De voorbereidende repetitie is me als volgt bevallen:</p>
               <table>
                 <tr>
                   <td><label><input type="radio" name="inzeepdag" value="0" checked>
