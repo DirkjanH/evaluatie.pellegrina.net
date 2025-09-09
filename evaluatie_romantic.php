@@ -265,7 +265,7 @@ require_once('schrijf_naar_DB.php');
             </p>
             <hr>
             <h2>Inhoud</h2>
-            <div class="onzichtbaar">
+            <div class="">
               <p class="vraag_enquete">De voorbereidende repetitie op 11 juni
                 is me als volgt bevallen:</p>
               <table>
@@ -306,8 +306,8 @@ require_once('schrijf_naar_DB.php');
               <p>
                 <textarea name="inzeepdag_tx" cols="70" rows="3" id="inzeepdag_tx"></textarea>
               </p>
-              <p class="vraag_enquete">De kamermuziekindeling vond ik:</p>
             </div>
+            <p class="vraag_enquete">De kamermuziekindeling vond ik:</p>
             <table>
               <tr>
                 <td><label>
