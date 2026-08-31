@@ -608,17 +608,17 @@ require_once('schrijf_naar_DB.php');
               </tr>
               <tr>
                 <td><label><input type="radio" name="acc_name"
-                      value="Kluizen"> een van de
-                    Kluizen</label></td>
+                      value="kluizen"> een van de
+                    kluizen</label></td>
               </tr>
               <tr>
                 <td><label><input type="radio" name="acc_name"
-                      value="Kampeerterrein"> het
-                    Kampeerterrein</label></td>
+                      value="kampeerterrein"> het
+                    kampeerterrein</label></td>
               </tr>
               <tr>
                 <td><label><input type="radio" name="acc_name"
-                      value="Eigen accommodatie">
+                      value="eigen accommodatie">
                     accommodatie die ik zelf had
                     geregeld</label></td>
               </tr>

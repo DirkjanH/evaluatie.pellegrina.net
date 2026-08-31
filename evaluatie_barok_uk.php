@@ -595,33 +595,33 @@ require_once('schrijf_naar_DB.php');
             <table>
               <tr>
                 <td><label><input type="radio" name="acc_name"
-                      value="Guest House">the Guest
+                      value="Gastenverblijf"> the Guest
                     House</label></td>
               </tr>
               <tr>
                 <td><label><input type="radio" name="acc_name"
-                      value="Middle Wing"> the Middle
+                      value="Middenvleugel"> the Middle
                     Wing</label></td>
               </tr>
               <tr>
                 <td><label><input type="radio" name="acc_name"
-                      value="Gate House"> the Gate
+                      value="Poortgebouw"> the Gate
                     House</label></td>
               </tr>
               <tr>
                 <td><label><input type="radio" name="acc_name"
-                      value="Cells"> one of the Cells
+                      value="kluizen"> one of the cells
                     (kluizen)</label></td>
               </tr>
               <tr>
                 <td><label><input type="radio" name="acc_name"
-                      value="Camp site"> the Camp
+                      value="kampeerterrein"> the camp
                     site</label></td>
               </tr>
               <tr>
                 <td><label><input type="radio" name="acc_name"
-                      value="Own accommodation">
-                    Accommodation I arranged myself</label>
+                      value="eigen accommodatie">
+                    accommodation I arranged myself</label>
                 </td>
               </tr>
             </table>
