@@ -8,7 +8,7 @@ require_once('schrijf_naar_DB.php');
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <title>Evaluatie zomercursus barok</title>
+  <title>Evaluatie Barok in Centraal Europa</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://pellegrina.net/Images/Logos/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://pellegrina.net/Images/Logos/favicon-32x32.png">
@@ -29,7 +29,7 @@ require_once('schrijf_naar_DB.php');
     <table id="evaluatie">
       <tr>
         <td>
-          <h1>Evaluatie Purcell & Handel</h1>
+          <h1>Evaluatie Barok in Centraal Europa</h1>
           <p><b>Spring eenvoudig met behulp van de muis of de Tab-toets van vraag
               naar vraag. Mocht je problemen tegenkomen bij het verzenden van het formulier,
               klik dan <a href="fout.htm" target="_blank">hier</a>.</b></p>

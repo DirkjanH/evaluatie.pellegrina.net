@@ -9,7 +9,7 @@ require_once('schrijf_naar_DB.php');
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <title>Evaluation romantic summer school</title>
+  <title>Evaluation Dvořák's Spectre's Bride</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://pellegrina.net/Images/Logos/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://pellegrina.net/Images/Logos/favicon-32x32.png">
@@ -29,7 +29,7 @@ require_once('schrijf_naar_DB.php');
     <table id="evaluatie">
       <tr>
         <td>
-          <h1>Evaluation Missa in tempore belli</h1>
+          <h1>Evaluation Dvořák's Spectre's Bride</h1>
           <p><b>Simply jump from question to question using the mouse or the Tab
               key. Should you encounter problem sending in this form, please click <a href="fout_uk.htm" target="_blank">here</a>.</b></p>
           <hr>

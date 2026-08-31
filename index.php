@@ -46,8 +46,8 @@
       </tr>
       <tr>
          <td height="60">
-            <div align="left"><strong>I. Missa in tempore belli</strong><br>
-               (24 July - 3 August 2025) </div>
+            <div align="left"><strong>I. Dvořáks Bruidshemd</strong><br>
+               (30 July - 9 August 2026) </div>
          </td>
          <td height="60">
             <div align="center"><a href="evaluatie_romantic.php" target="_blank">Evaluatie-formulier I</a></div>
@@ -59,8 +59,8 @@
       </tr>
       <tr>
          <td height="60">
-            <div align="left"><strong>II. Baroque Music: Purcell & Handel</strong><br>
-               (10 - 16 August 2025) </div>
+            <div align="left"><strong>II. Barok in Centraal Europa</strong><br>
+               (13 - 19 August 2026) </div>
          </td>
          <td height="60">
             <div align="center"><a href="evaluatie_barok.php" target="_blank">Evaluatie-formulier II</a></div>

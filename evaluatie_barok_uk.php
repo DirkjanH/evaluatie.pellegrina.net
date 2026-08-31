@@ -9,7 +9,7 @@ require_once('schrijf_naar_DB.php');
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <title>Evaluation summer school Baroque</title>
+  <title>Evaluation Baroque in Central Europe</title>
   <meta charset="utf-8">
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://pellegrina.net/Images/Logos/apple-touch-icon.png">
@@ -31,7 +31,7 @@ require_once('schrijf_naar_DB.php');
     <table id="evaluatie">
       <tr>
         <td>
-          <h1>Evaluation Purcell & Handel</h1>
+          <h1>Evaluation Baroque in Central Europe</h1>
           <p><b>Simply jump from question to question using the mouse or the Tab
               key. Should you encounter problem sending in this form, please click <a href="fout_uk.htm" target="_blank">here</a>.</b></p>
           <hr>
