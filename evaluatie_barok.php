@@ -801,8 +801,7 @@ require_once('schrijf_naar_DB.php');
               <tr>
                 <td><label>
                     <input type="radio" name="dagindeling"
-                      value="2">
-                  </label> slecht </td>
+                      value="2"> slecht</label></td>
               </tr>
               <tr>
                 <td><label>
