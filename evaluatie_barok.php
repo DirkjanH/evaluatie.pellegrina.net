@@ -776,7 +776,10 @@ require_once('schrijf_naar_DB.php');
               <textarea name="info_terplekke_tx" cols="70"
                 rows="3" id="info_terplekke_tx"></textarea>
             </p>
-            <p class="vraag_enquete">De dagindeling vond ik:</p>
+            <p class="vraag_enquete">Dit jaar hebben we het
+              dagprogramma een half uur vervroegd om het af te
+              stemmen op het schema van het klooster. De
+              dagindeling vond ik:</p>
             <table width="200">
               <tr>
                 <td><label>

@@ -590,7 +590,7 @@ require_once('schrijf_naar_DB.php');
             </p>
             <hr>
             <h2>Organisation</h2>
-            <p class="vraag_enquete">During nthe summer school I
+            <p class="vraag_enquete">During the summer school I
               stayed at:</p>
             <table>
               <tr>
@@ -774,8 +774,10 @@ require_once('schrijf_naar_DB.php');
               <textarea name="info_terplekke_tx" cols="70"
                 rows="3" id="info_terplekke_tx"></textarea>
             </p>
-            <p class="vraag_enquete">The setup of the daily program
-              I consider:</p>
+            <p class="vraag_enquete">This year, we moved the daily
+              programme to half an hour earlier to fit in with the
+              monastery's schedule. I found the daily schedule:
+            </p>
             <table width="200">
               <tr>
                 <td><label>
