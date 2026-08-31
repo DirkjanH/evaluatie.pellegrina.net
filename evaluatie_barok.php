@@ -472,11 +472,27 @@ require_once('schrijf_naar_DB.php');
             </p>
             <hr>
             <h2>Organisatie</h2>
-            <p class="vraag_enquete">Ik verbleef in:<span class="nadruk"> (het Gastenverblijf, de Middenvleugel, het Poortgebouw, de Kluizen, het kampeerterrein of accommodatie die je zelf had geregeld)</span></p>
-            <p>
-              <label for="acc_name">Naam van accommodatie: </label>
-              <input name="acc_name" type="text" id="acc_name" size="60">
-            </p>
+            <p class="vraag_enquete">Ik verbleef in:</p>
+            <table>
+              <tr>
+                <td><label><input type="radio" name="acc_name" value="Gastenverblijf"> Gastenverblijf</label></td>
+              </tr>
+              <tr>
+                <td><label><input type="radio" name="acc_name" value="Middenvleugel"> Middenvleugel</label></td>
+              </tr>
+              <tr>
+                <td><label><input type="radio" name="acc_name" value="Poortgebouw"> Poortgebouw</label></td>
+              </tr>
+              <tr>
+                <td><label><input type="radio" name="acc_name" value="Kluizen"> Kluizen</label></td>
+              </tr>
+              <tr>
+                <td><label><input type="radio" name="acc_name" value="Kampeerterrein"> Kampeerterrein</label></td>
+              </tr>
+              <tr>
+                <td><label><input type="radio" name="acc_name" value="Eigen accommodatie"> Zelf geregelde accommodatie</label></td>
+              </tr>
+            </table>
             <p class="vraag_enquete">Ik vond deze accommodatie:</p>
             <table width="200">
               <tr>
