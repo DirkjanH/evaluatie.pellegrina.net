@@ -475,7 +475,7 @@ require_once('schrijf_naar_DB.php');
             </p>
             <hr>
             <h2>Organisation</h2>
-            <p class="vraag_enquete">I stayed at:<span class="nadruk"> (the guest house, the middle wing, the camp site or accommodation you arranged yourself)</span></p>
+            <p class="vraag_enquete">I stayed at:<span class="nadruk"> (the Guest House, the Middle Wing, the Gate House, the camp site or accommodation you arranged yourself)</span></p>
             <p>
               <label for="acc_name">Name of accommodation: </label>
               <input name="acc_name" type="text" id="acc_name" size="60">

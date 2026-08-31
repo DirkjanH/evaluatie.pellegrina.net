@@ -472,7 +472,7 @@ require_once('schrijf_naar_DB.php');
             </p>
             <hr>
             <h2>Organisatie</h2>
-            <p class="vraag_enquete">Ik verbleef in:<span class="nadruk"> (het gastenverblijf, de middenvleugel, de kluizen , het kampeerterrein of accommodatie die je zelf had geregeld)</span></p>
+            <p class="vraag_enquete">Ik verbleef in:<span class="nadruk"> (het Gastenverblijf, de Middenvleugel, het Poortgebouw, de Kluizen, het kampeerterrein of accommodatie die je zelf had geregeld)</span></p>
             <p>
               <label for="acc_name">Naam van accommodatie: </label>
               <input name="acc_name" type="text" id="acc_name" size="60">
