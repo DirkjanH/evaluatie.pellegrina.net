@@ -2,18 +2,170 @@
 //Connection statement
 require_once('kies_jaar.php');
 
-// begin query Namen
-$Namen = select_query("SELECT `index`, naam FROM {$evaluatie_tabel} {$_SESSION['zoek_cursus']} ORDER BY `index`");
-d($Namen);
-// end Recordset
+function e($value)
+{
+   return htmlspecialchars((string) $value, ENT_QUOTES, 'UTF-8');
+}
 
-// begin query Aantallen evaluaties per cursus
+// Standaardwaarden voorkomen waarschuwingen bij lege of mislukte queries.
+$Namen = array();
+$evaluationFields = array(
+   'naam',
+   'cursus',
+   'tijd',
+   'publiciteit',
+   'naam_aanbrenger',
+   'publiciteit_tx',
+   'website',
+   'website_tx',
+   'info_vooraf',
+   'info_vooraf_tx',
+   'prijs',
+   'prijs_tx',
+   'duur',
+   'duur_tx',
+   'plaats',
+   'plaats_tx',
+   'periode',
+   'periode_tx',
+   'prijsduur',
+   'prijsduur_tx',
+   'belangrijk',
+   'belangrijk_tx',
+   'eenpers',
+   'eenpers_tx',
+   'inzeepdag',
+   'inzeepdag_tx',
+   'kamermuziek',
+   'kamermuziek_tx',
+   'coaching_kamermuziek',
+   'coaching_kamermuziek_tx',
+   'tutti',
+   'tutti_tx',
+   'coaching_tutti',
+   'coaching_tutti_tx',
+   'niveau',
+   'niveau_tx',
+   'professionaliteit',
+   'lezing',
+   'lezing_tx',
+   'acc_name',
+   'accommodatie',
+   'accommodatie_tx',
+   'werkruimte',
+   'werkruimte_tx',
+   'maaltijden',
+   'maaltijden_tx',
+   'diner_vrij',
+   'diner_vrij_tx',
+   'info_terplekke',
+   'info_terplekke_tx',
+   'dagindeling',
+   'dagindeling_tx',
+   'zwaarte',
+   'zwaarte_tx',
+   'groepsgrootte',
+   'groepsgrootte_tx',
+   'kinderen',
+   'kinderen_tx',
+   'indiv_lessen',
+   'indiv_lessen_tx',
+   'solo_spelen',
+   'solo_spelen_tx',
+   'cijfer_LP',
+   'cijfer_LP_tx',
+   'verschillen',
+   'rep_wensen',
+   'alg_wensen',
+   'citaat',
+   'Vacekcham',
+   'Vacekcham_tx',
+   'Boehmova',
+   'Boehmova_tx',
+   'Dolezal',
+   'Dolezal_tx',
+   'Fiser',
+   'Fiser_tx',
+   'Horringa_chamber',
+   'Horringa_chamber_tx',
+   'Hula',
+   'Hula_tx',
+   'Hulova',
+   'Hulova_tx',
+   'Jezek',
+   'Jezek_tx',
+   'Nykryn',
+   'Nykryn_tx',
+   'Kekula',
+   'Kekula_tx',
+   'Pinkas',
+   'Pinkas_tx',
+   'Sedlak',
+   'Sedlak_tx',
+   'Slechta',
+   'Slechta_tx',
+   'Horringa1',
+   'Horringa1_tx',
+   'Huizinga',
+   'Huizinga_tx',
+   'Lindeijer',
+   'Lindeijer_tx',
+   'Rodriguez',
+   'Rodriguez_tx',
+   'Sandler1',
+   'Sandler1_tx',
+   'Valorz',
+   'Valorz_tx',
+   'Bernaskova3',
+   'Bernaskova3_tx',
+   'BernasekP',
+   'BernasekP_tx',
+   'Horringa3',
+   'Horringa3_tx',
+   'Horejsi',
+   'Horejsi_tx',
+   'Novacek',
+   'Novacek_tx',
+   'Sandler3',
+   'Sandler3_tx',
+   'Sternadel',
+   'Sternadel_tx',
+   'Vlasankova',
+   'Vlasankova_tx',
+   'ass_1',
+   'ass_1_tx',
+   'ass_2',
+   'ass_2_tx',
+   'ass_3',
+   'ass_3_tx'
+);
+$evaluatie = array_fill_keys($evaluationFields, '');
+$cursus = array_fill(0, 6, 0);
+$procent = array_fill(0, 6, 0);
+$tableName = isset($evaluatie_tabel) && preg_match('/^evaluatie_[0-9]{4}$/', $evaluatie_tabel)
+   ? $evaluatie_tabel
+   : null;
+$courseNumber = filter_var($_SESSION['cursusnr'] ?? 0, FILTER_VALIDATE_INT);
+$courseFilter = ($courseNumber !== false && $courseNumber >= 1 && $courseNumber <= 5)
+   ? "WHERE cursus = {$courseNumber}"
+   : '';
+
+// Zoek de namen die bij de gekozen cursus horen.
+if ($tableName !== null) {
+   $NamenResult = select_query("SELECT `index`, naam FROM {$tableName} {$courseFilter} ORDER BY `index`");
+   if (is_array($NamenResult)) $Namen = $NamenResult;
+   if (function_exists('d')) d($Namen);
+}
+
+// Bereken het aantal evaluaties en het percentage per cursus.
 for ($i = 1; $i <= 5; $i++) {
    $cursusnr = $i;
-   $cursus[$i] = select_query("SELECT count(*) FROM {$evaluatie_tabel} WHERE cursus = {$cursusnr}", 0);
+   if ($tableName !== null) {
+      $count = select_query("SELECT count(*) FROM {$tableName} WHERE cursus = {$cursusnr}", 0);
+      $cursus[$i] = is_numeric($count) ? (int) $count : 0;
+   }
 }
 $cursus[0] = array_sum($cursus);
-// end Recordset
 
 $aantal_deelnemers = array(0 => 106, 1 => 61, 2 => 45, 3 => 0, 4 => 0, 5 => 0);
 
@@ -22,15 +174,19 @@ foreach ($cursus as $i => $c) {
    else $procent[$i] = 0;
 }
 
-// begin Recordset
-$colname__evaluatie = '-1';
-if (isset($_POST['index'])) {
-   $colname__evaluatie = $_POST['index'];
+// Haal de geselecteerde evaluatie op.
+$selectedIndex = filter_input(INPUT_POST, 'index', FILTER_VALIDATE_INT);
+if ($selectedIndex !== false && $selectedIndex !== null && $selectedIndex >= 0 && $tableName !== null) {
+   $query_evaluatie = "SELECT * FROM {$tableName} WHERE `index` = {$selectedIndex}";
+   if (function_exists('d')) d($query_evaluatie);
+   $selectedEvaluation = select_query($query_evaluatie, 1);
+   if (is_array($selectedEvaluation)) {
+      $evaluatie = array_merge($evaluatie, $selectedEvaluation);
+      array_walk($evaluatie, function (&$value) {
+         $value = e($value);
+      });
+   }
 }
-$query_evaluatie = sprintf("SELECT * FROM {$evaluatie_tabel} WHERE `index` = %s", quote($colname__evaluatie));
-d($query_evaluatie);
-$evaluatie = select_query($query_evaluatie, 1);
-// end Recordset
 
 ?>
 <!DOCTYPE HTML>
@@ -40,7 +196,7 @@ $evaluatie = select_query($query_evaluatie, 1);
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta charset="utf-8">
    <meta HTTP-EQUIV=Refresh
-      CONTENT="900; URL=<?php echo $_SERVER['PHP_SELF']; ?>">
+      CONTENT="900; URL=<?php echo e($_SERVER['PHP_SELF'] ?? 'evaluation_name.php'); ?>">
    <link rel="apple-touch-icon" sizes="180x180"
       href="https://pellegrina.net/Images/Logos/apple-touch-icon.png">
    <link rel="icon" type="image/png" sizes="32x32"
@@ -97,12 +253,11 @@ $evaluatie = select_query($query_evaluatie, 1);
 
 <body>
    <div id="menu" class="w3-container w3-bar-block">
-      <h2>Evaluations <?php echo $_SESSION['jaar']; ?></h2>
+      <h2>Evaluations <?php echo e($_SESSION['jaar'] ?? ''); ?></h2>
       <div id="navcontainer">
          <form action="" method="post" name="cursus_set" id="cursus_set">
-            <input name="cursus" id="cursus" type="radio"
-               <?php if (isset($_SESSION['cursusnr']) and ($_SESSION['cursusnr'] == "0")) echo 'checked';
-               elseif (empty($_SESSION['cursusnr'])) echo 'checked'; ?>
+            <input name="cursus" id="cursus" type="radio" <?php if (isset($_SESSION['cursusnr']) and ($_SESSION['cursusnr'] == "0")) echo 'checked';
+                                                            elseif (empty($_SESSION['cursusnr'])) echo 'checked'; ?>
                onClick="CursusZoek(0)">
             <strong>Received in total:<br> <?php echo $cursus[0]; ?> van
                <?php echo $aantal_deelnemers[0]; ?> =
@@ -115,17 +270,22 @@ $evaluatie = select_query($query_evaluatie, 1);
         {$aantal_deelnemers[$i]} = {$procent[$i]}%<br>";
                                                             }
                                                          }
-                                                         ?> <input name="cursusnr" id="cursusnr" type="hidden" value="">
+                                                         ?> <input
+               name="cursusnr" id="cursusnr" type="hidden" value="">
          </form>
       </div>
       <h3>Click on a name:</h3>
       <div id="navcontainer">
          <form action="" method="post" name="vinden" id="vinden"> <?php if (isset($Namen)) {
-                                                                     foreach ($Namen as $naam) { ?> <a
-                     href="javascript:Toon(<?php echo $naam['index']; ?>)"
-                     class="w3-bar-item w3-button w3-border-bottom w3-hover-blue w3-small"> <?php
-                                                                                             if ($naam['naam'] != NULL) echo $naam['naam'];
-                                                                                             else echo "???"; ?> </a> <?php   } ?> <?php } ?> <input
+                                                                     foreach ($Namen as $naam) {
+                                                                        $naamIndex = filter_var($naam['index'] ?? null, FILTER_VALIDATE_INT);
+                                                                        if ($naamIndex === false) continue;
+                                                                  ?> <a
+                     href="javascript:Toon(<?php echo $naamIndex; ?>)"
+                     class="w3-bar-item w3-button w3-border-bottom w3-hover-blue w3-small">
+                     <?php
+                                                                        if (($naam['naam'] ?? null) != NULL) echo e($naam['naam']);
+                                                                        else echo "???"; ?> </a> <?php   } ?> <?php } ?> <input
                type="hidden" name="index" id="index">
          </form>
       </div>
