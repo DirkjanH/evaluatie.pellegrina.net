@@ -256,9 +256,8 @@ if ($selectedIndex !== false && $selectedIndex !== null && $selectedIndex >= 0 &
       <h2>Evaluations <?php echo e($_SESSION['jaar'] ?? ''); ?></h2>
       <div id="navcontainer">
          <form action="" method="post" name="cursus_set" id="cursus_set">
-            <input name="cursus" id="cursus" type="radio"
-               <?php if (isset($_SESSION['cursusnr']) and ($_SESSION['cursusnr'] == "0")) echo 'checked';
-               elseif (empty($_SESSION['cursusnr'])) echo 'checked'; ?>
+            <input name="cursus" id="cursus" type="radio" <?php if (isset($_SESSION['cursusnr']) and ($_SESSION['cursusnr'] == "0")) echo 'checked';
+                                                            elseif (empty($_SESSION['cursusnr'])) echo 'checked'; ?>
                onClick="CursusZoek(0)">
             <strong>Received in total:<br> <?php echo $cursus[0]; ?> van
                <?php echo $aantal_deelnemers[0]; ?> =
@@ -477,46 +476,7 @@ if ($selectedIndex !== false && $selectedIndex !== null && $selectedIndex >= 0 &
          <tr>
             <td>Quote</td>
             <td colspan="2"> <?php echo $evaluatie['citaat']; ?> </td>
-         </tr> <?php if ($evaluatie['Vacekcham'] != 0 or $evaluatie['Vacekcham_tx'] != null) echo " 	<tr>
-      <td>Václav Bernášek</td>
-      <td colspan=\"2\">({$evaluatie['Vacekcham']}) {$evaluatie['Vacekcham_tx']}</td>
-   </tr>"; ?> <?php if ($evaluatie['Boehmova'] != 0 or $evaluatie['Boehmova_tx'] != null) echo " 	<tr>
-      <td>Veronika Böhmová</td>
-      <td colspan=\"2\">({$evaluatie['Boehmova']}) {$evaluatie['Boehmova_tx']}</td>
-   </tr>"; ?> <?php if ($evaluatie['Dolezal'] != 0 or $evaluatie['Dolezal_tx'] != null) echo " 	<tr>
-      <td>Štěpán Doležal</td>
-      <td colspan=\"2\">({$evaluatie['Dolezal']}) {$evaluatie['Dolezal_tx']}</td>
-   </tr>"; ?> <?php if ($evaluatie['Fiser'] != 0 or $evaluatie['Fiser_tx'] != null) echo " 	<tr>
-      <td>Jakub Fišer</td>
-      <td colspan=\"2\">({$evaluatie['Fiser']}) {$evaluatie['Fiser_tx']}</td>
-   </tr>"; ?> <?php if ($evaluatie['Horringa_chamber'] != 0 or $evaluatie['Horringa_chamber_tx'] != null) echo " 	<tr>
-      <td>Dirkjan Horringa</td>
-      <td colspan=\"2\">({$evaluatie['Horringa_chamber']}) {$evaluatie['Horringa_chamber_tx']}</td>
-   </tr>"; ?> <?php if ($evaluatie['Hula'] != 0 or $evaluatie['Hula_tx'] != null) echo " 	<tr>
-      <td>Pavel Hůla</td>
-      <td colspan=\"2\">({$evaluatie['Hula']}) {$evaluatie['Hula_tx']}</td>
-   </tr>"; ?> <?php if ($evaluatie['Hulova'] != 0 or $evaluatie['Hulova_tx'] != null) echo " 	<tr>
-      <td>Lucie Hůlová</td>
-      <td colspan=\"2\">({$evaluatie['Hulova']}) {$evaluatie['Hulova_tx']}</td>
-   </tr>"; ?> <?php if ($evaluatie['Jezek'] != 0 or $evaluatie['Jezek_tx'] != null) echo " 	<tr>
-      <td>Štěpán Ježek</td>
-      <td colspan=\"2\">({$evaluatie['Jezek']}) {$evaluatie['Jezek_tx']}</td>
-   </tr>"; ?> <?php if ($evaluatie['Nykryn'] != 0 or $evaluatie['Nykryn_tx'] != null) echo " 	<tr>
-      <td>Jan Nykrýn</td>
-      <td colspan=\"2\">({$evaluatie['Nykryn']}) {$evaluatie['Nykryn_tx']}</td>
-   </tr>"; ?> <?php if ($evaluatie['Kekula'] != 0 or $evaluatie['Kekula_tx'] != null) echo " 	<tr>
-      <td>Josef Kekula</td>
-      <td colspan=\"2\">({$evaluatie['Kekula']}) {$evaluatie['Kekula_tx']}</td>
-   </tr>"; ?> <?php if ($evaluatie['Pinkas'] != 0 or $evaluatie['Pinkas_tx'] != null) echo " 	<tr>
-      <td>Jiří Pinkas</td>
-      <td colspan=\"2\">({$evaluatie['Pinkas']}) {$evaluatie['Pinkas_tx']}</td>
-   </tr>"; ?> <?php if ($evaluatie['Sedlak'] != 0 or $evaluatie['Sedlak_tx'] != null) echo " 	<tr>
-      <td>Martin Sedlák</td>
-      <td colspan=\"2\">({$evaluatie['Sedlak']}) {$evaluatie['Sedlak_tx']}</td>
-   </tr>"; ?> <?php if ($evaluatie['Slechta'] != 0 or $evaluatie['Slechta_tx'] != null) echo " 	<tr>
-      <td>Jiří Šlechta</td>
-      <td colspan=\"2\">({$evaluatie['Slechta']}) {$evaluatie['Slechta_tx']}</td>
-   </tr>"; ?> <?php if ($evaluatie['Horringa1'] != 0 or $evaluatie['Horringa1_tx'] != null) echo " 	<tr>
+         </tr> <?php if ($evaluatie['Horringa1'] != 0 or $evaluatie['Horringa1_tx'] != null) echo " 	<tr>
       <td>Dirkjan Horringa (baroque) </td>
       <td colspan=\"2\">({$evaluatie['Horringa1']}) {$evaluatie['Horringa1_tx']}</td>
    </tr>"; ?> <?php if ($evaluatie['Huizinga'] != 0 or $evaluatie['Huizinga_tx'] != null) echo " 	<tr>

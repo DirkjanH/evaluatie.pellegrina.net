@@ -14,7 +14,7 @@ function html($waarde)
 $gekozenCursus = isset($_SESSION['cursusnr']) && is_numeric($_SESSION['cursusnr'])
   ? (int) $_SESSION['cursusnr']
   : 0;
-$gekozenCursus = ($gekozenCursus >= 0 && $gekozenCursus <= 5) ? $gekozenCursus : 0;
+$gekozenCursus = ($gekozenCursus == 2) ? 2 : 0;
 
 ?>
 <!DOCTYPE HTML>
@@ -56,11 +56,6 @@ $gekozenCursus = ($gekozenCursus >= 0 && $gekozenCursus <= 5) ? $gekozenCursus :
   </script>
   <style type="text/css">
     <!--
-    div#T1 {
-      display: <?php echo ($gekozenCursus != 1 and $gekozenCursus != 0) ? 'none' : 'block';
-                ?>;
-    }
-
     div#T2 {
       display: <?php echo ($gekozenCursus != 2 and $gekozenCursus != 0) ? 'none' : 'block';
                 ?>;
@@ -125,11 +120,8 @@ $gekozenCursus = ($gekozenCursus >= 0 && $gekozenCursus <= 5) ? $gekozenCursus :
             <?php if ($gekozenCursus == 0) echo 'checked'; ?>
             onClick="CursusZoek(0)"> all <input name="cursus"
             id="cursus" type="radio"
-            <?php if ($gekozenCursus == 1) echo 'checked'; ?>
-            onClick="CursusZoek(1)"> 1 <input name="cursus"
-            id="cursus" type="radio"
             <?php if ($gekozenCursus == 2) echo 'checked'; ?>
-            onClick="CursusZoek(2)"> 2 <input name="cursusnr"
+            onClick="CursusZoek(2)"> <input name="cursusnr"
             type="hidden" value="">
         </form>
         <h3>Choose a report:</h3>
@@ -206,40 +198,6 @@ $gekozenCursus = ($gekozenCursus >= 0 && $gekozenCursus <= 5) ? $gekozenCursus :
                 onclick='openrapport( "rapport_citaat.php")'>Quotes</a>
             </li>
           </ul>
-          <?php if ($gekozenCursus == 0 || $gekozenCursus == 1) { ?>
-            <div id="T1">
-              <h4>Tutors course 1:</h4>
-              <ul>
-                <li><a
-                    onclick='openrapport( "rapport_bernaskova3.php")'>Martina
-                    Bernášková</a></li>
-                <li><a
-                    onclick='openrapport( "rapport_bernasekp.php")'>Petr
-                    Bernášek</a></li>
-                <li><a
-                    onclick='openrapport( "rapport_horringa3.php")'>Dirkjan
-                    Horringa</a></li>
-                <li><a
-                    onclick='openrapport( "rapport_horejsi.php")'>Pavel
-                    Hořejší</a></li>
-                <li><a
-                    onclick='openrapport( "rapport_novacek.php")'>Libor
-                    Nováček</a></li>
-                <li><a
-                    onclick='openrapport( "rapport_sandler3.php")'>Mitchell
-                    Sandler</a></li>
-                <li><a
-                    onclick='openrapport( "rapport_sternadel.php")'>Rudolf
-                    Sternadel</a></li>
-                <li><a
-                    onclick='openrapport( "rapport_vlasankova.php")'>Jitka
-                    Vlašánková</a></li>
-                <li><a
-                    onclick='openrapport( "rapport_ass_3.php")'>Assistants</a>
-                </li>
-              </ul>
-            </div>
-          <?php } ?>
           <?php if ($gekozenCursus == 0 || $gekozenCursus == 2) { ?>
             <div id="T2">
               <h4>Tutors course 2:</h4>
