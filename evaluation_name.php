@@ -9,6 +9,7 @@ function e($value)
 
 // Standaardwaarden voorkomen waarschuwingen bij lege of mislukte queries.
 $Namen = array();
+$namenPerCursus = array(1 => array(), 2 => array());
 $evaluationFields = array(
    'naam',
    'cursus',
@@ -152,8 +153,12 @@ $courseFilter = ($courseNumber !== false && $courseNumber >= 1 && $courseNumber 
 
 // Zoek de namen die bij de gekozen cursus horen.
 if ($tableName !== null) {
-   $NamenResult = select_query("SELECT `index`, naam FROM {$tableName} {$courseFilter} ORDER BY `index`");
+   $NamenResult = select_query("SELECT `index`, naam, cursus FROM {$tableName} {$courseFilter} ORDER BY cursus, `index`");
    if (is_array($NamenResult)) $Namen = $NamenResult;
+   foreach ($Namen as $naam) {
+      $naamCursus = filter_var($naam['cursus'] ?? null, FILTER_VALIDATE_INT);
+      if ($naamCursus === 1 || $naamCursus === 2) $namenPerCursus[$naamCursus][] = $naam;
+   }
    if (function_exists('d')) d($Namen);
 }
 
@@ -256,9 +261,8 @@ if ($selectedIndex !== false && $selectedIndex !== null && $selectedIndex >= 0 &
       <h2>Evaluations <?php echo e($_SESSION['jaar'] ?? ''); ?></h2>
       <div id="navcontainer">
          <form action="" method="post" name="cursus_set" id="cursus_set">
-            <input name="cursus" id="cursus" type="radio"
-               <?php if (isset($_SESSION['cursusnr']) and ($_SESSION['cursusnr'] == "0")) echo 'checked';
-               elseif (empty($_SESSION['cursusnr'])) echo 'checked'; ?>
+            <input name="cursus" id="cursus" type="radio" <?php if (isset($_SESSION['cursusnr']) and ($_SESSION['cursusnr'] == "0")) echo 'checked';
+                                                            elseif (empty($_SESSION['cursusnr'])) echo 'checked'; ?>
                onClick="CursusZoek(0)">
             <strong>Received in total:<br> <?php echo $cursus[0]; ?> van
                <?php echo $aantal_deelnemers[0]; ?> =
@@ -277,17 +281,19 @@ if ($selectedIndex !== false && $selectedIndex !== null && $selectedIndex >= 0 &
       </div>
       <h3>Click on a name:</h3>
       <div id="navcontainer">
-         <form action="" method="post" name="vinden" id="vinden"> <?php if (isset($Namen)) {
-                                                                     foreach ($Namen as $naam) {
+         <form action="" method="post" name="vinden" id="vinden"> <?php foreach ($namenPerCursus as $naamCursus => $namen) {
+                                                                     if (count($namen) === 0) continue;
+                                                                     if ($courseNumber === 0) { ?> <strong>Course
+                     <?php echo $naamCursus; ?></strong><br> <?php }
+                                                                     foreach ($namen as $naam) {
                                                                         $naamIndex = filter_var($naam['index'] ?? null, FILTER_VALIDATE_INT);
                                                                         if ($naamIndex === false) continue;
-                                                                  ?> <a
-                     href="javascript:Toon(<?php echo $naamIndex; ?>)"
-                     class="w3-bar-item w3-button w3-border-bottom w3-hover-blue w3-small">
-                     <?php
-                                                                        if (($naam['naam'] ?? null) != NULL) echo e($naam['naam']);
-                                                                        else echo "???"; ?> </a> <?php   } ?> <?php } ?> <input type="hidden"
-               name="index" id="index">
+                                                               ?> <a href="javascript:Toon(<?php echo $naamIndex; ?>)"
+                     class="w3-bar-item w3-button w3-border-bottom w3-hover-blue w3-small"> <?php
+                                                                                             if (($naam['naam'] ?? null) != NULL) echo e($naam['naam']);
+                                                                                             else echo "???"; ?> </a> <?php }
+                                                                     if ($courseNumber === 0 && $naamCursus === 1 && count($namenPerCursus[2]) > 0) echo '<br>';
+                                                                  } ?> <input type="hidden" name="index" id="index">
          </form>
       </div>
    </div>
