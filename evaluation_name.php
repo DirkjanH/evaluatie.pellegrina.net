@@ -267,9 +267,8 @@ if ($selectedIndex !== false && $selectedIndex !== null && $selectedIndex >= 0 &
       <h2>Evaluations <?php echo e($_SESSION['jaar'] ?? ''); ?></h2>
       <div id="navcontainer">
          <form action="" method="post" name="cursus_set" id="cursus_set">
-            <input name="cursus" id="cursus" type="radio"
-               <?php if (isset($_SESSION['cursusnr']) and ($_SESSION['cursusnr'] == "0")) echo 'checked';
-               elseif (empty($_SESSION['cursusnr'])) echo 'checked'; ?>
+            <input name="cursus" id="cursus" type="radio" <?php if (isset($_SESSION['cursusnr']) and ($_SESSION['cursusnr'] == "0")) echo 'checked';
+                                                            elseif (empty($_SESSION['cursusnr'])) echo 'checked'; ?>
                onClick="CursusZoek(0)">
             <strong>Received in total:<br> <?php echo $cursus[0]; ?> van
                <?php echo $aantal_deelnemers[0]; ?> =
@@ -288,26 +287,25 @@ if ($selectedIndex !== false && $selectedIndex !== null && $selectedIndex >= 0 &
       </div>
       <h3>Click on a name:</h3>
       <div id="navcontainer">
-         <form action="" method="post" name="vinden" id="vinden">
-            <?php foreach (array(1, 2) as $naamCursus) {
-               if ($courseNumber !== 0 && $courseNumber !== $naamCursus) continue;
-               if (count($namenPerCursus[$naamCursus]) === 0) continue;
-               if ($courseNumber === 0) { ?> <strong>Course
+         <form action="" method="post" name="vinden" id="vinden"> <?php foreach (array(1, 2) as $naamCursus) {
+                                                                     if ($courseNumber !== 0 && $courseNumber !== $naamCursus) continue;
+                                                                     if (count($namenPerCursus[$naamCursus]) === 0) continue;
+                                                                     if ($courseNumber === 0) { ?> <strong>Course
                      <?php echo $naamCursus; ?></strong><br> <?php }
-                                                            foreach ($namenPerCursus[$naamCursus] as $naam) {
-                                                               $naamIndex = filter_var($naam['index'] ?? null, FILTER_VALIDATE_INT);
-                                                               if ($naamIndex === false) continue;
+                                                                     foreach ($namenPerCursus[$naamCursus] as $naam) {
+                                                                        $naamIndex = filter_var($naam['index'] ?? null, FILTER_VALIDATE_INT);
+                                                                        if ($naamIndex === false) continue;
                                                                ?> <a
                      href="javascript:Toon(<?php echo $naamIndex; ?>)"
                      class="w3-bar-item w3-button w3-border-bottom w3-hover-blue w3-small">
                      <?php
-                                                               if (($naam['naam'] ?? null) != NULL) echo e($naam['naam']);
-                                                               else echo "???"; ?> </a>
+                                                                        if (($naam['naam'] ?? null) != NULL) echo e($naam['naam']);
+                                                                        else echo "???"; ?> </a>
                <?php }
-                                                            if ($courseNumber === 0 && $naamCursus === 1 && count($namenPerCursus[2]) > 0) { ?>
+                                                                     if ($courseNumber === 0 && $naamCursus === 1 && count($namenPerCursus[2]) > 0) { ?>
                   <div class="cursus-scheiding" aria-hidden="true"></div> <?php }
-                                                                     } ?> <input
-               type="hidden" name="index" id="index">
+                                                                     } ?>
+            <input type="hidden" name="index" id="index">
          </form>
       </div>
    </div>
@@ -540,13 +538,13 @@ if ($selectedIndex !== false && $selectedIndex !== null && $selectedIndex >= 0 &
       <td>Jitka Vlašánková</td>
       <td colspan=\"2\">({$evaluatie['Vlasankova']}) {$evaluatie['Vlasankova_tx']}</td>
    </tr>"; ?> <?php if ($evaluatie['ass_1'] != 0 or $evaluatie['ass_1_tx'] != null) echo " 	<tr>
-      <td>organiser Milka</td>
+      <td>organiser Jana</td>
       <td colspan=\"2\">({$evaluatie['ass_1']}) {$evaluatie['ass_1_tx']}</td>
    </tr>"; ?> <?php if ($evaluatie['ass_2'] != 0 or $evaluatie['ass_2_tx'] != null) echo " 	<tr>
       <td>assistant Jurgen</td>
       <td colspan=\"2\">({$evaluatie['ass_2']}) {$evaluatie['ass_2_tx']}</td>
    </tr>"; ?> <?php if ($evaluatie['ass_3'] != 0 or $evaluatie['ass_3_tx'] != null) echo " 	<tr>
-      <td>organizer Milka</td>
+      <td>organizer Jana</td>
       <td colspan=\"2\">({$evaluatie['ass_3']}) {$evaluatie['ass_3_tx']}</td>
    </tr>"; ?>
       </table>
