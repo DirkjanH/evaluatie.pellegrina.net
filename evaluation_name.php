@@ -246,7 +246,8 @@ if ($selectedIndex !== false && $selectedIndex !== null && $selectedIndex >= 0 &
 
       .cursus-scheiding {
          display: block;
-         height: 1.5em;
+         height: 2em;
+         margin: 0.5em 0;
       }
 
       /* Use a media query to add a breakpoint at 600px: */
@@ -288,11 +289,12 @@ if ($selectedIndex !== false && $selectedIndex !== null && $selectedIndex >= 0 &
       <h3>Click on a name:</h3>
       <div id="navcontainer">
          <form action="" method="post" name="vinden" id="vinden">
-            <?php foreach ($namenPerCursus as $naamCursus => $namen) {
-               if (count($namen) === 0) continue;
+            <?php foreach (array(1, 2) as $naamCursus) {
+               if ($courseNumber !== 0 && $courseNumber !== $naamCursus) continue;
+               if (count($namenPerCursus[$naamCursus]) === 0) continue;
                if ($courseNumber === 0) { ?> <strong>Course
                      <?php echo $naamCursus; ?></strong><br> <?php }
-                                                            foreach ($namen as $naam) {
+                                                            foreach ($namenPerCursus[$naamCursus] as $naam) {
                                                                $naamIndex = filter_var($naam['index'] ?? null, FILTER_VALIDATE_INT);
                                                                if ($naamIndex === false) continue;
                                                                ?> <a
