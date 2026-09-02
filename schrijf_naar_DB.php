@@ -10,7 +10,7 @@ error_reporting(E_ALL);
 
 require_once $_SERVER["DOCUMENT_ROOT"] . '/vendor/autoload.php';
 
-Kint::$enabled_mode = false;
+if (class_exists('Kint')) Kint::$enabled_mode = false;
 
 // zet de tijdzone:
 date_default_timezone_set('Europe/Berlin');
@@ -21,7 +21,7 @@ $editFormAction = $_SERVER['PHP_SELF'] . (isset($_SERVER['QUERY_STRING']) ? "?" 
 // Kies jaar
 session_start();
 
-d($_SESSION, $_REQUEST);
+if (function_exists('d')) d($_SESSION, $_REQUEST);
 
 if (date('n') <= 7) $evaluatie_tabel = 'evaluatie_' . (date('Y') - 1);
 else $evaluatie_tabel = 'evaluatie_' . (date('Y'));
@@ -36,6 +36,7 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "evaluatie")) {
     $insertGoTo = (isset($taal) && $taal == 'EN')
       ? 'dank_eval_uk.htm'
       : 'dank_eval.htm';
+    $insertGoTo .= '?dubbel=1';
     KT_redir($insertGoTo);
     exit;
   }
@@ -159,7 +160,7 @@ VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, 
     quote($_POST['citaat'])
   );
 
-  d($insertSQL);
+  if (function_exists('d')) d($insertSQL);
 
   exec_query($insertSQL);
 
@@ -174,8 +175,7 @@ VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, 
   }
   KT_redir($insertGoTo);
 }
-?>
-<script type="text/javascript">
+?> <script type="text/javascript">
   function showValue(num) {
     var cijfer = document.getElementById('cijfer');
     var cijfer_LP = document.getElementById('cijfer_LP');
