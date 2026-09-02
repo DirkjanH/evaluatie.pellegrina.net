@@ -256,8 +256,9 @@ if ($selectedIndex !== false && $selectedIndex !== null && $selectedIndex >= 0 &
       <h2>Evaluations <?php echo e($_SESSION['jaar'] ?? ''); ?></h2>
       <div id="navcontainer">
          <form action="" method="post" name="cursus_set" id="cursus_set">
-            <input name="cursus" id="cursus" type="radio" <?php if (isset($_SESSION['cursusnr']) and ($_SESSION['cursusnr'] == "0")) echo 'checked';
-                                                            elseif (empty($_SESSION['cursusnr'])) echo 'checked'; ?>
+            <input name="cursus" id="cursus" type="radio"
+               <?php if (isset($_SESSION['cursusnr']) and ($_SESSION['cursusnr'] == "0")) echo 'checked';
+               elseif (empty($_SESSION['cursusnr'])) echo 'checked'; ?>
                onClick="CursusZoek(0)">
             <strong>Received in total:<br> <?php echo $cursus[0]; ?> van
                <?php echo $aantal_deelnemers[0]; ?> =

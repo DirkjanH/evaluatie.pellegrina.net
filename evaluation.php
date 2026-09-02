@@ -14,7 +14,7 @@ function html($waarde)
 $gekozenCursus = isset($_SESSION['cursusnr']) && is_numeric($_SESSION['cursusnr'])
   ? (int) $_SESSION['cursusnr']
   : 0;
-$gekozenCursus = ($gekozenCursus == 2) ? 2 : 0;
+$gekozenCursus = ($gekozenCursus == 1 || $gekozenCursus == 2) ? $gekozenCursus : 0;
 
 ?>
 <!DOCTYPE HTML>
@@ -56,23 +56,9 @@ $gekozenCursus = ($gekozenCursus == 2) ? 2 : 0;
   </script>
   <style type="text/css">
     <!--
+    div#T1,
     div#T2 {
-      display: <?php echo ($gekozenCursus != 2 and $gekozenCursus != 0) ? 'none' : 'block';
-                ?>;
-    }
-
-    div#T3 {
-      display: <?php echo ($gekozenCursus != 3 and $gekozenCursus != 0) ? 'none' : 'block';
-                ?>;
-    }
-
-    div#T4 {
-      display: <?php echo ($gekozenCursus != 4 and $gekozenCursus != 0) ? 'none' : 'block';
-                ?>;
-    }
-
-    div#T5 {
-      display: <?php echo ($gekozenCursus != 5 and $gekozenCursus != 0) ? 'none' : 'block';
+      display: <?php echo ($gekozenCursus == 0 || $gekozenCursus == 1 || $gekozenCursus == 2) ? 'block' : 'none';
                 ?>;
     }
     -->
@@ -120,8 +106,11 @@ $gekozenCursus = ($gekozenCursus == 2) ? 2 : 0;
             <?php if ($gekozenCursus == 0) echo 'checked'; ?>
             onClick="CursusZoek(0)"> all <input name="cursus"
             id="cursus" type="radio"
+            <?php if ($gekozenCursus == 1) echo 'checked'; ?>
+            onClick="CursusZoek(1)"> 1 <input name="cursus"
+            id="cursus" type="radio"
             <?php if ($gekozenCursus == 2) echo 'checked'; ?>
-            onClick="CursusZoek(2)"> <input name="cursusnr"
+            onClick="CursusZoek(2)"> 2 <input name="cursusnr"
             type="hidden" value="">
         </form>
         <h3>Choose a report:</h3>
@@ -198,30 +187,33 @@ $gekozenCursus = ($gekozenCursus == 2) ? 2 : 0;
                 onclick='openrapport( "rapport_citaat.php")'>Quotes</a>
             </li>
           </ul>
+          <?php if ($gekozenCursus == 0 || $gekozenCursus == 1) { ?>
+            <div id="T1">
+              <h4>Tutors course 1:</h4>
+              <ul>
+                <li><a onclick='openrapport( "rapport_horringa1.php")'>Dirkjan Horringa</a></li>
+                <li><a onclick='openrapport( "rapport_huizinga.php")'>Femke Huizinga</a></li>
+                <li><a onclick='openrapport( "rapport_lindeijer.php")'>Hanna Lindeijer</a></li>
+                <li><a onclick='openrapport( "rapport_rodriguez.php")'>Ricardo Rodríguez Miranda</a></li>
+                <li><a onclick='openrapport( "rapport_sandler1.php")'>Mitchell Sandler</a></li>
+                <li><a onclick='openrapport( "rapport_valorz.php")'>Edoardo Valorz</a></li>
+                <li><a onclick='openrapport( "rapport_ass_2.php")'>Assistants</a></li>
+              </ul>
+            </div>
+          <?php } ?>
           <?php if ($gekozenCursus == 0 || $gekozenCursus == 2) { ?>
             <div id="T2">
               <h4>Tutors course 2:</h4>
               <ul>
-                <li><a
-                    onclick='openrapport( "rapport_horringa1.php")'>Dirkjan
-                    Horringa</a></li>
-                <li><a
-                    onclick='openrapport( "rapport_huizinga.php")'>Femke
-                    Huizinga</a></li>
-                <li><a
-                    onclick='openrapport( "rapport_lindeijer.php")'>Hanna
-                    Lindeijer</a></li>
-                <li><a
-                    onclick='openrapport( "rapport_rodriguez.php")'>Ricardo
-                    Rodriguez Miranda</a></li>
-                <li><a
-                    onclick='openrapport( "rapport_sandler1.php")'>Mitchell
-                    Sandler</a></li>
-                <li><a onclick='openrapport( "rapport_valorz.php")'>Edoardo
-                    Valorz</a></li>
-                <li><a
-                    onclick='openrapport( "rapport_ass_2.php")'>Assistant</a>
-                </li>
+                <li><a onclick='openrapport( "rapport_bernaskova3.php")'>Martina Bernášková</a></li>
+                <li><a onclick='openrapport( "rapport_bernasekp.php")'>Petr Bernášek</a></li>
+                <li><a onclick='openrapport( "rapport_horejsi.php")'>Pavel Hořejší</a></li>
+                <li><a onclick='openrapport( "rapport_horringa3.php")'>Dirkjan Horringa</a></li>
+                <li><a onclick='openrapport( "rapport_novacek.php")'>Libor Nováček</a></li>
+                <li><a onclick='openrapport( "rapport_sandler3.php")'>Mitchell Sandler</a></li>
+                <li><a onclick='openrapport( "rapport_sternadel.php")'>Rudolf Sternadel</a></li>
+                <li><a onclick='openrapport( "rapport_vlasankova.php")'>Jitka Vlašánková</a></li>
+                <li><a onclick='openrapport( "rapport_ass_3.php")'>Assistants</a></li>
               </ul>
             </div>
           <?php } ?>
