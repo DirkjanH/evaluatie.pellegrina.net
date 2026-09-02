@@ -206,63 +206,67 @@ $gekozenCursus = ($gekozenCursus >= 0 && $gekozenCursus <= 5) ? $gekozenCursus :
                 onclick='openrapport( "rapport_citaat.php")'>Quotes</a>
             </li>
           </ul>
-          <div id="T1">
-            <h4>Tutors course 1:</h4>
-            <ul>
-              <li><a
-                  onclick='openrapport( "rapport_bernaskova3.php")'>Martina
-                  Bernášková</a></li>
-              <li><a
-                  onclick='openrapport( "rapport_bernasekp.php")'>Petr
-                  Bernášek</a></li>
-              <li><a
-                  onclick='openrapport( "rapport_horringa3.php")'>Dirkjan
-                  Horringa</a></li>
-              <li><a
-                  onclick='openrapport( "rapport_horejsi.php")'>Pavel
-                  Hořejší</a></li>
-              <li><a
-                  onclick='openrapport( "rapport_novacek.php")'>Libor
-                  Nováček</a></li>
-              <li><a
-                  onclick='openrapport( "rapport_sandler3.php")'>Mitchell
-                  Sandler</a></li>
-              <li><a
-                  onclick='openrapport( "rapport_sternadel.php")'>Rudolf
-                  Sternadel</a></li>
-              <li><a
-                  onclick='openrapport( "rapport_vlasankova.php")'>Jitka
-                  Vlašánková</a></li>
-              <li><a
-                  onclick='openrapport( "rapport_ass_3.php")'>Assistants</a>
-              </li>
-            </ul>
-          </div>
-          <div id="T2">
-            <h4>Tutors course 2:</h4>
-            <ul>
-              <li><a
-                  onclick='openrapport( "rapport_horringa1.php")'>Dirkjan
-                  Horringa</a></li>
-              <li><a
-                  onclick='openrapport( "rapport_huizinga.php")'>Femke
-                  Huizinga</a></li>
-              <li><a
-                  onclick='openrapport( "rapport_lindeijer.php")'>Hanna
-                  Lindeijer</a></li>
-              <li><a
-                  onclick='openrapport( "rapport_rodriguez.php")'>Ricardo
-                  Rodriguez Miranda</a></li>
-              <li><a
-                  onclick='openrapport( "rapport_sandler1.php")'>Mitchell
-                  Sandler</a></li>
-              <li><a onclick='openrapport( "rapport_valorz.php")'>Edoardo
-                  Valorz</a></li>
-              <li><a
-                  onclick='openrapport( "rapport_ass_2.php")'>Assistant</a>
-              </li>
-            </ul>
-          </div>
+          <?php if ($gekozenCursus == 0 || $gekozenCursus == 1) { ?>
+            <div id="T1">
+              <h4>Tutors course 1:</h4>
+              <ul>
+                <li><a
+                    onclick='openrapport( "rapport_bernaskova3.php")'>Martina
+                    Bernášková</a></li>
+                <li><a
+                    onclick='openrapport( "rapport_bernasekp.php")'>Petr
+                    Bernášek</a></li>
+                <li><a
+                    onclick='openrapport( "rapport_horringa3.php")'>Dirkjan
+                    Horringa</a></li>
+                <li><a
+                    onclick='openrapport( "rapport_horejsi.php")'>Pavel
+                    Hořejší</a></li>
+                <li><a
+                    onclick='openrapport( "rapport_novacek.php")'>Libor
+                    Nováček</a></li>
+                <li><a
+                    onclick='openrapport( "rapport_sandler3.php")'>Mitchell
+                    Sandler</a></li>
+                <li><a
+                    onclick='openrapport( "rapport_sternadel.php")'>Rudolf
+                    Sternadel</a></li>
+                <li><a
+                    onclick='openrapport( "rapport_vlasankova.php")'>Jitka
+                    Vlašánková</a></li>
+                <li><a
+                    onclick='openrapport( "rapport_ass_3.php")'>Assistants</a>
+                </li>
+              </ul>
+            </div>
+          <?php } ?>
+          <?php if ($gekozenCursus == 0 || $gekozenCursus == 2) { ?>
+            <div id="T2">
+              <h4>Tutors course 2:</h4>
+              <ul>
+                <li><a
+                    onclick='openrapport( "rapport_horringa1.php")'>Dirkjan
+                    Horringa</a></li>
+                <li><a
+                    onclick='openrapport( "rapport_huizinga.php")'>Femke
+                    Huizinga</a></li>
+                <li><a
+                    onclick='openrapport( "rapport_lindeijer.php")'>Hanna
+                    Lindeijer</a></li>
+                <li><a
+                    onclick='openrapport( "rapport_rodriguez.php")'>Ricardo
+                    Rodriguez Miranda</a></li>
+                <li><a
+                    onclick='openrapport( "rapport_sandler1.php")'>Mitchell
+                    Sandler</a></li>
+                <li><a onclick='openrapport( "rapport_valorz.php")'>Edoardo
+                    Valorz</a></li>
+                <li><a
+                    onclick='openrapport( "rapport_ass_2.php")'>Assistant</a>
+                </li>
+              </ul>
+            </div>
+          <?php } ?>
         </div>
       </div>
     </div>

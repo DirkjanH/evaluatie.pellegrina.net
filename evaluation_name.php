@@ -256,8 +256,9 @@ if ($selectedIndex !== false && $selectedIndex !== null && $selectedIndex >= 0 &
       <h2>Evaluations <?php echo e($_SESSION['jaar'] ?? ''); ?></h2>
       <div id="navcontainer">
          <form action="" method="post" name="cursus_set" id="cursus_set">
-            <input name="cursus" id="cursus" type="radio" <?php if (isset($_SESSION['cursusnr']) and ($_SESSION['cursusnr'] == "0")) echo 'checked';
-                                                            elseif (empty($_SESSION['cursusnr'])) echo 'checked'; ?>
+            <input name="cursus" id="cursus" type="radio"
+               <?php if (isset($_SESSION['cursusnr']) and ($_SESSION['cursusnr'] == "0")) echo 'checked';
+               elseif (empty($_SESSION['cursusnr'])) echo 'checked'; ?>
                onClick="CursusZoek(0)">
             <strong>Received in total:<br> <?php echo $cursus[0]; ?> van
                <?php echo $aantal_deelnemers[0]; ?> =
@@ -285,8 +286,8 @@ if ($selectedIndex !== false && $selectedIndex !== null && $selectedIndex >= 0 &
                      class="w3-bar-item w3-button w3-border-bottom w3-hover-blue w3-small">
                      <?php
                                                                         if (($naam['naam'] ?? null) != NULL) echo e($naam['naam']);
-                                                                        else echo "???"; ?> </a> <?php   } ?> <?php } ?> <input
-               type="hidden" name="index" id="index">
+                                                                        else echo "???"; ?> </a> <?php   } ?> <?php } ?> <input type="hidden"
+               name="index" id="index">
          </form>
       </div>
    </div>
