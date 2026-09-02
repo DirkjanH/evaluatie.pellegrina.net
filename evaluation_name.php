@@ -244,6 +244,11 @@ if ($selectedIndex !== false && $selectedIndex !== null && $selectedIndex >= 0 &
          width: 80%;
       }
 
+      .cursus-scheiding {
+         display: block;
+         height: 1.5em;
+      }
+
       /* Use a media query to add a breakpoint at 600px: */
       @media screen and (max-width: 600px) {
 
@@ -261,8 +266,9 @@ if ($selectedIndex !== false && $selectedIndex !== null && $selectedIndex >= 0 &
       <h2>Evaluations <?php echo e($_SESSION['jaar'] ?? ''); ?></h2>
       <div id="navcontainer">
          <form action="" method="post" name="cursus_set" id="cursus_set">
-            <input name="cursus" id="cursus" type="radio" <?php if (isset($_SESSION['cursusnr']) and ($_SESSION['cursusnr'] == "0")) echo 'checked';
-                                                            elseif (empty($_SESSION['cursusnr'])) echo 'checked'; ?>
+            <input name="cursus" id="cursus" type="radio"
+               <?php if (isset($_SESSION['cursusnr']) and ($_SESSION['cursusnr'] == "0")) echo 'checked';
+               elseif (empty($_SESSION['cursusnr'])) echo 'checked'; ?>
                onClick="CursusZoek(0)">
             <strong>Received in total:<br> <?php echo $cursus[0]; ?> van
                <?php echo $aantal_deelnemers[0]; ?> =
@@ -281,19 +287,25 @@ if ($selectedIndex !== false && $selectedIndex !== null && $selectedIndex >= 0 &
       </div>
       <h3>Click on a name:</h3>
       <div id="navcontainer">
-         <form action="" method="post" name="vinden" id="vinden"> <?php foreach ($namenPerCursus as $naamCursus => $namen) {
-                                                                     if (count($namen) === 0) continue;
-                                                                     if ($courseNumber === 0) { ?> <strong>Course
+         <form action="" method="post" name="vinden" id="vinden">
+            <?php foreach ($namenPerCursus as $naamCursus => $namen) {
+               if (count($namen) === 0) continue;
+               if ($courseNumber === 0) { ?> <strong>Course
                      <?php echo $naamCursus; ?></strong><br> <?php }
-                                                                     foreach ($namen as $naam) {
-                                                                        $naamIndex = filter_var($naam['index'] ?? null, FILTER_VALIDATE_INT);
-                                                                        if ($naamIndex === false) continue;
-                                                               ?> <a href="javascript:Toon(<?php echo $naamIndex; ?>)"
-                     class="w3-bar-item w3-button w3-border-bottom w3-hover-blue w3-small"> <?php
-                                                                                             if (($naam['naam'] ?? null) != NULL) echo e($naam['naam']);
-                                                                                             else echo "???"; ?> </a> <?php }
-                                                                     if ($courseNumber === 0 && $naamCursus === 1 && count($namenPerCursus[2]) > 0) echo '<br>';
-                                                                  } ?> <input type="hidden" name="index" id="index">
+                                                            foreach ($namen as $naam) {
+                                                               $naamIndex = filter_var($naam['index'] ?? null, FILTER_VALIDATE_INT);
+                                                               if ($naamIndex === false) continue;
+                                                               ?> <a
+                     href="javascript:Toon(<?php echo $naamIndex; ?>)"
+                     class="w3-bar-item w3-button w3-border-bottom w3-hover-blue w3-small">
+                     <?php
+                                                               if (($naam['naam'] ?? null) != NULL) echo e($naam['naam']);
+                                                               else echo "???"; ?> </a>
+               <?php }
+                                                            if ($courseNumber === 0 && $naamCursus === 1 && count($namenPerCursus[2]) > 0) { ?>
+                  <div class="cursus-scheiding" aria-hidden="true"></div> <?php }
+                                                                     } ?> <input
+               type="hidden" name="index" id="index">
          </form>
       </div>
    </div>
