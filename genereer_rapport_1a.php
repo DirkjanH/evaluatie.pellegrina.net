@@ -26,4 +26,4 @@ require_once('includes/functies_gemiddelde_spreiding.php');
 
 <body>
 	<h2>Evaluation report <?php echo $naam; ?>
-		<table id="marks">
+		<table id="marks" class="report-marks-table<?php if ($punten === 'accommodatie') echo ' accommodation-report'; ?>">

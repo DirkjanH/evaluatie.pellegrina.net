@@ -71,8 +71,12 @@ table#opmerkingen td.centreer {
 	text-align: center;
 }
 
-table#opmerkingen.marks-given-report th:nth-child(2),
-table#opmerkingen.marks-given-report td:nth-child(2) {
+table#opmerkingen th:nth-child(2),
+table#opmerkingen td:nth-child(2),
+table#marks.report-marks-table:not(.accommodation-report) th:nth-child(2),
+table#marks.report-marks-table:not(.accommodation-report) td:nth-child(2),
+table#marks.report-marks-table.accommodation-report th:nth-child(3),
+table#marks.report-marks-table.accommodation-report td:nth-child(3) {
 	width: 3.5rem;
 	text-align: center;
 }
