@@ -76,7 +76,7 @@ $reports = array(
 );
 
 $courses = array(
-    1 => 'Dvorak\'s Bridal Shirt',
+    1 => 'Dvorak\'s The Spectre\'s Bride',
     2 => 'Baroque in Central Europe',
 );
 $table = 'evaluatie_' . $year;
@@ -155,7 +155,13 @@ function renderReport(array $report, array $rows): string
         $comment = isset($report['comment']) ? trim((string) ($row[$report['comment']] ?? '')) : '';
         $extra = isset($report['extra']) ? trim((string) ($row[$report['extra']] ?? '')) : '';
         if ($score === '' && $comment === '' && $extra === '') continue;
-        $responses[] = array('name' => (string) ($row['naam'] ?? ''), 'score' => $score, 'comment' => $comment, 'extra' => $extra);
+        $name = trim((string) ($row['naam'] ?? ''));
+        $responses[] = array(
+            'name' => $name !== '' ? $name : 'Anonymous submission',
+            'score' => $score,
+            'comment' => $comment,
+            'extra' => $extra,
+        );
     }
 
     $html = '<p class="metadata">Responses: ' . count($responses);
