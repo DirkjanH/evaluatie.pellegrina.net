@@ -57,22 +57,22 @@ $reports = array(
     array('title' => 'Differences with other summer schools', 'comment' => 'verschillen'),
     array('title' => 'Marks given and improvements for La Pellegrina', 'score' => 'cijfer_LP', 'comment' => 'cijfer_LP_tx'),
     array('title' => 'Quotes', 'comment' => 'citaat'),
-    array('title' => 'Dirkjan Horringa (baroque)', 'score' => 'Horringa1', 'comment' => 'Horringa1_tx'),
-    array('title' => 'Femke Huizinga', 'score' => 'Huizinga', 'comment' => 'Huizinga_tx'),
-    array('title' => 'Hanna Lindeijer', 'score' => 'Lindeijer', 'comment' => 'Lindeijer_tx'),
-    array('title' => 'Ricardo Rodriguez Miranda', 'score' => 'Rodriguez', 'comment' => 'Rodriguez_tx'),
-    array('title' => 'Mitchell Sandler (baroque)', 'score' => 'Sandler1', 'comment' => 'Sandler1_tx'),
-    array('title' => 'Edoardo Valorz', 'score' => 'Valorz', 'comment' => 'Valorz_tx'),
-    array('title' => 'Assistants (baroque)', 'score' => 'ass_2', 'comment' => 'ass_2_tx'),
-    array('title' => 'Martina Bernaskova (romantic)', 'score' => 'Bernaskova3', 'comment' => 'Bernaskova3_tx'),
-    array('title' => 'Petr Bernasek', 'score' => 'BernasekP', 'comment' => 'BernasekP_tx'),
-    array('title' => 'Pavel Horejsi', 'score' => 'Horejsi', 'comment' => 'Horejsi_tx'),
-    array('title' => 'Dirkjan Horringa (romantic)', 'score' => 'Horringa3', 'comment' => 'Horringa3_tx'),
-    array('title' => 'Libor Novacek', 'score' => 'Novacek', 'comment' => 'Novacek_tx'),
-    array('title' => 'Mitchell Sandler (romantic)', 'score' => 'Sandler3', 'comment' => 'Sandler3_tx'),
-    array('title' => 'Rudolf Sternadel', 'score' => 'Sternadel', 'comment' => 'Sternadel_tx'),
-    array('title' => 'Jitka Vlasankova', 'score' => 'Vlasankova', 'comment' => 'Vlasankova_tx'),
-    array('title' => 'Assistants (romantic)', 'score' => 'ass_3', 'comment' => 'ass_3_tx'),
+    array('title' => 'Dirkjan Horringa (baroque)', 'course' => 1, 'score' => 'Horringa1', 'comment' => 'Horringa1_tx'),
+    array('title' => 'Femke Huizinga', 'course' => 1, 'score' => 'Huizinga', 'comment' => 'Huizinga_tx'),
+    array('title' => 'Hanna Lindeijer', 'course' => 1, 'score' => 'Lindeijer', 'comment' => 'Lindeijer_tx'),
+    array('title' => 'Ricardo Rodriguez Miranda', 'course' => 1, 'score' => 'Rodriguez', 'comment' => 'Rodriguez_tx'),
+    array('title' => 'Mitchell Sandler (baroque)', 'course' => 1, 'score' => 'Sandler1', 'comment' => 'Sandler1_tx'),
+    array('title' => 'Edoardo Valorz', 'course' => 1, 'score' => 'Valorz', 'comment' => 'Valorz_tx'),
+    array('title' => 'Assistants (baroque)', 'course' => 1, 'score' => 'ass_2', 'comment' => 'ass_2_tx'),
+    array('title' => 'Martina Bernaskova (romantic)', 'course' => 2, 'score' => 'Bernaskova3', 'comment' => 'Bernaskova3_tx'),
+    array('title' => 'Petr Bernasek', 'course' => 2, 'score' => 'BernasekP', 'comment' => 'BernasekP_tx'),
+    array('title' => 'Pavel Horejsi', 'course' => 2, 'score' => 'Horejsi', 'comment' => 'Horejsi_tx'),
+    array('title' => 'Dirkjan Horringa (romantic)', 'course' => 2, 'score' => 'Horringa3', 'comment' => 'Horringa3_tx'),
+    array('title' => 'Libor Novacek', 'course' => 2, 'score' => 'Novacek', 'comment' => 'Novacek_tx'),
+    array('title' => 'Mitchell Sandler (romantic)', 'course' => 2, 'score' => 'Sandler3', 'comment' => 'Sandler3_tx'),
+    array('title' => 'Rudolf Sternadel', 'course' => 2, 'score' => 'Sternadel', 'comment' => 'Sternadel_tx'),
+    array('title' => 'Jitka Vlasankova', 'course' => 2, 'score' => 'Vlasankova', 'comment' => 'Vlasankova_tx'),
+    array('title' => 'Assistants (romantic)', 'course' => 2, 'score' => 'ass_3', 'comment' => 'ass_3_tx'),
 );
 
 $courses = array(
@@ -104,9 +104,12 @@ if (!is_dir($outputDirectory) && !mkdir($outputDirectory, 0775, true) && !is_dir
 }
 
 foreach ($courses as $courseNumber => $courseTitle) {
+    $courseReports = array_values(array_filter($reports, static function (array $report) use ($courseNumber): bool {
+        return !isset($report['course']) || $report['course'] === $courseNumber;
+    }));
     $statement = $db->query("SELECT {$quotedColumns} FROM `{$table}` WHERE `cursus` = " . (int) $courseNumber . " ORDER BY `index`");
     $rows = $statement->fetchAll(PDO::FETCH_ASSOC);
-    $html = buildDocument($year, $courseNumber, $courseTitle, $reports, $rows);
+    $html = buildDocument($year, $courseNumber, $courseTitle, $courseReports, $rows);
     $baseName = 'evaluation-course-' . $courseNumber . '-' . $year;
     file_put_contents($outputDirectory . DIRECTORY_SEPARATOR . $baseName . '.html', $html);
 
