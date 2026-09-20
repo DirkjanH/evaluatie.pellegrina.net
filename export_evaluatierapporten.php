@@ -131,7 +131,11 @@ function buildDocument(int $year, int $courseNumber, string $courseTitle, array 
     $html .= '<title>Evaluation report - ' . e($courseTitle) . ' - ' . $year . '</title>';
     $html .= '<style>' . css() . '</style></head><body>';
     $html .= '<h1>Evaluation report</h1><h2>Course ' . $courseNumber . ': ' . e($courseTitle) . '</h2>';
-    $html .= '<p class="metadata">Year: ' . $year . ' | Submissions: ' . count($rows) . '</p>';
+    $anonymousCount = count(array_filter($rows, static function (array $row): bool {
+        return isAnonymousName($row['naam'] ?? null);
+    }));
+    $html .= '<p class="metadata">Year: ' . $year . ' | Submissions: ' . count($rows)
+        . ' | Anonymous submissions: ' . $anonymousCount . '</p>';
     $html .= '<div class="toc"><h2>Contents</h2><ol>';
     foreach ($reports as $index => $report) {
         $html .= '<li><a href="#chapter-' . ($index + 1) . '">' . e($report['title']) . '</a></li>';
@@ -157,14 +161,14 @@ function renderReport(array $report, array $rows): string
         if ($score === '' && $comment === '' && $extra === '') continue;
         $name = trim((string) ($row['naam'] ?? ''));
         $responses[] = array(
-            'name' => $name !== '' ? $name : 'Anonymous submission',
+            'name' => isAnonymousName($name) ? 'Anonymous submission' : $name,
             'score' => $score,
             'comment' => $comment,
             'extra' => $extra,
         );
     }
 
-    $html = '<p class="metadata">Responses: ' . count($responses);
+    $html = '<p class="metadata">Submissions with a response: ' . count($responses);
     if (isset($report['score'])) {
         $numeric = array();
         foreach ($responses as $response) {
@@ -193,6 +197,12 @@ function renderReport(array $report, array $rows): string
 function e(string $value): string
 {
     return htmlspecialchars($value, ENT_QUOTES, 'UTF-8');
+}
+
+function isAnonymousName($value): bool
+{
+    $name = strtolower(trim((string) $value));
+    return $name === '' || $name === 'anonymous' || $name === 'anoniem';
 }
 
 function css(): string
