@@ -1,0 +1,3 @@
+# Composer dependencies and local Composer executable
+/vendor/
+composer.phar
