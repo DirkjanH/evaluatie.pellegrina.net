@@ -81,6 +81,15 @@ table#marks.report-marks-table.accommodation-report td:nth-child(3) {
 	text-align: center;
 }
 
+table#opmerkingen th:nth-child(3),
+table#opmerkingen td:nth-child(3),
+table#marks.report-marks-table:not(.accommodation-report) th:nth-child(3),
+table#marks.report-marks-table:not(.accommodation-report) td:nth-child(3),
+table#marks.report-marks-table.accommodation-report th:nth-child(4),
+table#marks.report-marks-table.accommodation-report td:nth-child(4) {
+	text-align: left;
+}
+
 th {
 	font-style: italic;
 	background-color: #B1F2FD;
