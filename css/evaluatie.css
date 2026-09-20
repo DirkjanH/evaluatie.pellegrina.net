@@ -71,6 +71,12 @@ table#opmerkingen td.centreer {
 	text-align: center;
 }
 
+table#marks th:nth-child(2),
+table#marks td:nth-child(2) {
+	width: 3.5rem;
+	text-align: center;
+}
+
 th {
 	font-style: italic;
 	background-color: #B1F2FD;
