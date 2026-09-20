@@ -2,12 +2,12 @@
 $opmerkingen = $punten . "_tx";
 
 //Connection statement
-require_once( 'kies_jaar.php' );
+require_once('kies_jaar.php');
 
 
 // begin Recordset
 $query_report = "SELECT * FROM {$evaluatie_tabel} {$_SESSION['zoek_cursus']}";
-$report = select_query( $query_report );
+$report = select_query($query_report);
 // end Recordset
 
 require_once('includes/functies_gemiddelde_spreiding.php');
@@ -16,6 +16,7 @@ require_once('includes/functies_gemiddelde_spreiding.php');
 
 <!DOCTYPE HTML>
 <html>
+
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
@@ -48,15 +49,15 @@ require_once('includes/functies_gemiddelde_spreiding.php');
 		</tr>
 	</table>
 	<br>
-	<table id="opmerkingen">
+	<table id="opmerkingen" <?php if ($punten === 'cijfer_LP') echo ' class="marks-given-report"'; ?>>
 		<tr>
 			<th width="15%">name:</th>
 			<th>mark:</th>
 			<th>remarks:</th>
 		</tr>
 		<?php
-		foreach ( $report as $rep ) {
-			if ( $rep[ $opmerkingen ] != NULL )
+		foreach ($report as $rep) {
+			if ($rep[$opmerkingen] != NULL)
 				echo "<tr><td>{$rep['naam']}</td>
          	<td>{$rep[$punten]}</td>
          	<td>{$rep[$opmerkingen]}</td>
@@ -65,4 +66,5 @@ require_once('includes/functies_gemiddelde_spreiding.php');
 		?>
 	</table>
 </body>
+
 </html>
