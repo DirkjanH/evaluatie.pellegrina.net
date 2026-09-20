@@ -90,6 +90,11 @@ table#marks.report-marks-table.accommodation-report td:nth-child(4) {
 	text-align: left;
 }
 
+table#opmerkingen.remarks-report th:nth-child(2),
+table#opmerkingen.remarks-report td:nth-child(2) {
+	text-align: left;
+}
+
 th {
 	font-style: italic;
 	background-color: #B1F2FD;
