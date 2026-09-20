@@ -2,12 +2,12 @@
 $opmerkingen = $punten . "_tx";
 
 //Connection statement
-require_once( 'kies_jaar.php' );
+require_once('kies_jaar.php');
 
 
 // begin Recordset
 $query_report = "SELECT * FROM {$evaluatie_tabel} {$_SESSION['zoek_cursus']}";
-$report = select_query( $query_report );
+$report = select_query($query_report);
 // end Recordset
 
 require_once('includes/functies_gemiddelde_spreiding.php');
@@ -26,4 +26,4 @@ require_once('includes/functies_gemiddelde_spreiding.php');
 
 <body>
 	<h2>Evaluation report <?php echo $naam; ?>
-	<table id="marks" style="width: 100%; max-width: 1000px;">
+		<table id="marks">

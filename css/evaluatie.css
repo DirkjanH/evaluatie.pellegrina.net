@@ -48,6 +48,7 @@ table#marks,
 table#evaluatie {
 	width: 100%;
 	max-width: 100%;
+	box-sizing: border-box;
 	border-collapse: collapse;
 	table-layout: fixed;
 	font-size: 11px;
@@ -63,6 +64,7 @@ table#marks th {
 	padding: 3px;
 	border: thin solid black;
 	overflow-wrap: anywhere;
+	word-break: break-word;
 }
 
 table#opmerkingen td.centreer {
