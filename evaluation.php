@@ -49,8 +49,13 @@ $gekozenCursus = ($gekozenCursus == 1 || $gekozenCursus == 2) ? $gekozenCursus :
     }
 
     function openrapport(Url) {
+      // <object> embedding of local HTML is unreliable on mobile browsers;
+      // provide a fallback link so the report stays reachable there.
       document.getElementById("rapport").innerHTML =
-        '<object type="text/html" data="' + Url + '"></object>';
+        '<object type="text/html" data="' + Url + '">' +
+        '<p class="rapport-fallback">This report cannot be shown inline on this device. ' +
+        '<a href="' + Url + '" target="_blank" rel="noopener">Open the report</a>.</p>' +
+        '</object>';
     }
   </script>
   <style type="text/css">
@@ -88,6 +93,16 @@ $gekozenCursus = ($gekozenCursus == 1 || $gekozenCursus == 2) ? $gekozenCursus :
       display: block;
       width: 100%;
       height: 100%;
+    }
+
+    .rapport-fallback {
+      padding: 1rem;
+      font-size: 1rem;
+    }
+
+    .rapport-fallback a {
+      display: inline-block;
+      padding: 0.5rem 0.75rem;
     }
 
     @media screen and (max-width: 600px) {
