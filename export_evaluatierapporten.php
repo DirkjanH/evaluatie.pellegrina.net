@@ -8,26 +8,53 @@ declare(strict_types=1);
  * Run from the project directory:
  *   php export_evaluatierapporten.php --year=2026
  *   php export_evaluatierapporten.php --year=2026 --output-dir=exports
+ *
+ * Or open export_evaluatierapporten.php?year=2026 in a browser.
+ * Browser exports are written to exports; protect this page and that directory
+ * with the same access restrictions as the evaluation reports.
  */
-
-require_once __DIR__ . '/connections/PDO_connect.php';
-require_once __DIR__ . '/vendor/autoload.php';
 
 use Dompdf\Dompdf;
 use Dompdf\Options;
 
-$options = getopt('', array('year:', 'output-dir::'));
-$year = isset($options['year']) ? (int) $options['year'] : (int) date('Y');
-$outputDirectory = isset($options['output-dir']) && $options['output-dir'] !== false
+$isCli = PHP_SAPI === 'cli';
+set_exception_handler(static function (Throwable $exception) use ($isCli): void {
+    error_log((string) $exception);
+    if ($isCli) {
+        fwrite(STDERR, 'Export failed: ' . $exception->getMessage() . PHP_EOL);
+    } else {
+        if (!headers_sent()) {
+            http_response_code(500);
+            header('Content-Type: text/html; charset=UTF-8');
+        }
+        echo '<h1>Export mislukt</h1><p>Raadpleeg het PHP-foutenlog van de server voor de oorzaak.</p>';
+    }
+    exit(1);
+});
+
+$options = $isCli ? getopt('', array('year:', 'output-dir::')) : $_GET;
+$year = filter_var($options['year'] ?? date('Y'), FILTER_VALIDATE_INT);
+$outputDirectory = $isCli && isset($options['output-dir']) && $options['output-dir'] !== false
     ? (string) $options['output-dir']
     : __DIR__ . DIRECTORY_SEPARATOR . 'exports';
 
-if ($year < 2006 || $year > (int) date('Y')) {
+if ($year === false || $year < 2006 || $year > (int) date('Y')) {
     throw new InvalidArgumentException('The year must be between 2006 and the current year.');
 }
 
+$autoload = __DIR__ . '/vendor/autoload.php';
+if (!is_file($autoload)) {
+    throw new RuntimeException('Composer autoload is missing. Run "composer install" on the server or deploy the vendor directory.');
+}
+require_once $autoload;
+
 if (!class_exists(Dompdf::class)) {
     throw new RuntimeException('Dompdf is missing. Run "composer install" first.');
+}
+
+require_once __DIR__ . '/connections/PDO_connect.php';
+if (!isset($db) || !$db instanceof PDO) {
+    throw new RuntimeException('Database connection failed. Check connections/PDO_connect.php and the preceding connection error.');
 }
 
 $reports = array(
@@ -103,6 +130,7 @@ if (!is_dir($outputDirectory) && !mkdir($outputDirectory, 0775, true) && !is_dir
     throw new RuntimeException('Cannot create output directory: ' . $outputDirectory);
 }
 
+$downloads = array();
 foreach ($courses as $courseNumber => $courseTitle) {
     $courseReports = array_values(array_filter($reports, static function (array $report) use ($courseNumber): bool {
         return !isset($report['course']) || $report['course'] === $courseNumber;
@@ -111,7 +139,7 @@ foreach ($courses as $courseNumber => $courseTitle) {
     $rows = $statement->fetchAll(PDO::FETCH_ASSOC);
     $html = buildDocument($year, $courseNumber, $courseTitle, $courseReports, $rows);
     $baseName = 'evaluation-course-' . $courseNumber . '-' . $year;
-    file_put_contents($outputDirectory . DIRECTORY_SEPARATOR . $baseName . '.html', $html);
+    writeExport($outputDirectory . DIRECTORY_SEPARATOR . $baseName . '.html', $html);
 
     $dompdfOptions = new Options();
     $dompdfOptions->set('defaultFont', 'DejaVu Sans');
@@ -120,9 +148,30 @@ foreach ($courses as $courseNumber => $courseTitle) {
     $dompdf->loadHtml($html, 'UTF-8');
     $dompdf->setPaper('A4', 'portrait');
     $dompdf->render();
-    file_put_contents($outputDirectory . DIRECTORY_SEPARATOR . $baseName . '.pdf', $dompdf->output());
+    writeExport($outputDirectory . DIRECTORY_SEPARATOR . $baseName . '.pdf', $dompdf->output());
 
-    fwrite(STDOUT, sprintf("Course %d: %d submissions, %s.html, %s.pdf\n", $courseNumber, count($rows), $baseName, $baseName));
+    if ($isCli) {
+        fwrite(STDOUT, sprintf("Course %d: %d submissions, %s.html, %s.pdf\n", $courseNumber, count($rows), $baseName, $baseName));
+    } else {
+        $downloads[] = '<li>' . e($courseTitle) . ' (' . count($rows) . ' inzendingen): '
+            . '<a href="exports/' . rawurlencode($baseName) . '.html">HTML</a> | '
+            . '<a href="exports/' . rawurlencode($baseName) . '.pdf">PDF</a></li>';
+    }
+}
+
+if (!$isCli) {
+    header('Content-Type: text/html; charset=UTF-8');
+    echo '<!doctype html><html lang="nl"><head><meta charset="utf-8">'
+        . '<title>Evaluatierapporten</title></head><body><h1>Evaluatierapporten '
+        . $year . '</h1><p>De export is voltooid.</p><ul>'
+        . implode('', $downloads) . '</ul></body></html>';
+}
+
+function writeExport(string $path, string $contents): void
+{
+    if (file_put_contents($path, $contents) !== strlen($contents)) {
+        throw new RuntimeException('Cannot write complete export file: ' . $path);
+    }
 }
 
 function buildDocument(int $year, int $courseNumber, string $courseTitle, array $reports, array $rows): string
