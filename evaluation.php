@@ -215,9 +215,9 @@ $gekozenCursus = ($gekozenCursus == 1 || $gekozenCursus == 2) ? $gekozenCursus :
                 onclick='openrapport( "rapport_citaat.php")'>Quotes</a>
             </li>
           </ul>
-          <?php if ($gekozenCursus == 0 || $gekozenCursus == 1) { ?>
-            <div id="T1">
-              <h4>Tutors course 1:</h4>
+          <?php if ($gekozenCursus == 0 || $gekozenCursus == 2) { ?>
+            <div id="T2">
+              <h4>Tutors course 2:</h4>
               <ul>
                 <li><a
                     onclick='openrapport( "rapport_horringa1.php")'>Dirkjan
@@ -241,9 +241,9 @@ $gekozenCursus = ($gekozenCursus == 1 || $gekozenCursus == 2) ? $gekozenCursus :
                 </li>
               </ul>
             </div> <?php } ?>
-          <?php if ($gekozenCursus == 0 || $gekozenCursus == 2) { ?>
-            <div id="T2">
-              <h4>Tutors course 2:</h4>
+          <?php if ($gekozenCursus == 0 || $gekozenCursus == 1) { ?>
+            <div id="T1">
+              <h4>Tutors course 1:</h4>
               <ul>
                 <li><a
                     onclick='openrapport( "rapport_bernaskova3.php")'>Martina
