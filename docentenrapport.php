@@ -41,11 +41,11 @@ function deviation($array)
 
 $cijfers = array();
 if (is_array($report)) foreach ($report as $row) {
-	if ($row[$punten] != 0)
+	if (is_numeric($row[$punten]) && $row[$punten] > 0)
 		$cijfers[] = $row[$punten];
 }
 
-if (is_array($cijfers)) {
+if (count($cijfers) > 0) {
 	$aantal = count($cijfers);
 	$gemiddelde = round(average($cijfers), 1);
 	$spreiding = round(deviation($cijfers), 2);
