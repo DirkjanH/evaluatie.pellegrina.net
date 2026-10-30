@@ -27,7 +27,7 @@ function deviation($array)
 
 $cijfers = array();
 foreach ($report as $rep) {
-	if (isset($rep[$punten]) and $rep[$punten] != '')
+	if (isset($rep[$punten]) && is_numeric($rep[$punten]) && $rep[$punten] > 0)
 		$cijfers[] = intval($rep[$punten]);
 };
 
