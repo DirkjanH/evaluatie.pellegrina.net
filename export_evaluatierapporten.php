@@ -221,9 +221,20 @@ function renderReport(array $report, array $rows): string
     if (isset($report['score'])) {
         $numeric = array();
         foreach ($responses as $response) {
-            if ($response['score'] !== '' && is_numeric($response['score'])) $numeric[] = (float) $response['score'];
+            if ($response['score'] !== '' && is_numeric($response['score']) && (float) $response['score'] > 0) {
+                $numeric[] = (float) $response['score'];
+            }
         }
-        if ($numeric) $html .= ' | Average: ' . number_format(array_sum($numeric) / count($numeric), 2);
+        if ($numeric) {
+            $average = array_sum($numeric) / count($numeric);
+            $squaredDifferences = array();
+            foreach ($numeric as $score) {
+                $squaredDifferences[] = ($score - $average) ** 2;
+            }
+            $standardDeviation = sqrt(array_sum($squaredDifferences) / count($numeric));
+            $html .= ' | Average: ' . number_format($average, 2)
+                . ' | Standard deviation: ' . number_format($standardDeviation, 2);
+        }
     }
     $html .= '</p>';
     if (!$responses) return $html . '<p>No responses for this course.</p>';
